@@ -2,7 +2,7 @@
 layout: post
 title: "The session you cannot take with you"
 date: 2026-07-31
-source: hackernews
+source: "hackernews"
 ---
 
 ## TITLE
