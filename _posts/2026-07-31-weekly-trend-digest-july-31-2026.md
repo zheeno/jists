@@ -55,7 +55,7 @@ source: "newsletter"
 
 ## 6. The Religion of Speed
 
-**Source:** hackernews — **Virality Score:** 84/100
+**Source:** hackernews — **Virality Score:** 85/100
 
 [Read full analysis →](https://graybeard.ing/the-religion-of-speed/)
 
