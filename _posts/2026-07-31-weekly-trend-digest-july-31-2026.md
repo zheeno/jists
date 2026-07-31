@@ -45,19 +45,19 @@ source: "newsletter"
 
 ---
 
-## 5. Read this before you buy that TV streaming stick
-
-**Source:** hackernews — **Virality Score:** 95/100
-
-[Read full analysis →](https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/)
-
----
-
-## 6. I flagged two research papers for fake authors and both were accepted as orals
+## 5. I flagged two research papers for fake authors and both were accepted as orals
 
 **Source:** hackernews — **Virality Score:** 94/100
 
 [Read full analysis →](https://geospatialml.com/posts/reviewing-ai-slop/)
+
+---
+
+## 6. Google fixed more Chrome bugs in June than over the past two years, thanks to AI
+
+**Source:** hackernews — **Virality Score:** 91/100
+
+[Read full analysis →](https://blog.google/security/chrome-stronger-with-every-update/)
 
 ---
 
