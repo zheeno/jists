@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }}</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;max-width:900px;margin:48px auto;padding:0 16px;line-height:1.7}
+    .muted{color:#555}
+    a{color:#0b57d0;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .meta{margin:10px 0 18px}
+  </style>
+</head>
+<body>
+  <a href="/" class="muted">← Home</a>
+  <h1 style="margin:10px 0 0">{{ page.title }}</h1>
+  <div class="meta muted">
+    {{ page.date }} • {{ page.source | default: 'newsletter' }}
+  </div>
+  <article>
+    {{ content }}
+  </article>
+</body>
+</html>
