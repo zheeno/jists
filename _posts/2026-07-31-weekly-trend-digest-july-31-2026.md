@@ -21,19 +21,19 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="2-deepseek-v4-flash-update">2. DeepSeek-V4-Flash Update</h2>
-
-**Source:** hackernews — **Virality Score:** 95/100
-
-[Read full analysis →](https://api-docs.deepseek.com/updates/)
-
----
-
-<h2 class="editorial-h2" id="3-stacked-prs-are-now-live-on-github">3. Stacked PRs are now live on GitHub</h2>
+<h2 class="editorial-h2" id="2-stacked-prs-are-now-live-on-github">2. Stacked PRs are now live on GitHub</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
 [Read full analysis →](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
+
+---
+
+<h2 class="editorial-h2" id="3-deepseek-v4-flash-update">3. DeepSeek-V4-Flash Update</h2>
+
+**Source:** hackernews — **Virality Score:** 95/100
+
+[Read full analysis →](https://api-docs.deepseek.com/updates/)
 
 ---
 
