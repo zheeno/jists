@@ -5,6 +5,8 @@ date: 2026-07-31
 source: "hackernews"
 ---
 
+![Featured image](https://source.unsplash.com/1600x900/?github%2Csoftware+engineering%2Ccode+review)
+
 ## TITLE
 
 Stacked PRs are now live on GitHub
