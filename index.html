@@ -3,57 +3,124 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Efezino Ukpowe — Newsletter</title>
-  <meta name="description" content="Daily “what’s trending” analysis with practical takeaways." />
-  <link rel="stylesheet" href="assets/style.css" />
-</head>
-<body>
-  <div class="container">
-    <div class="topbar">
-      <div class="brand">
-        <h1>Efezino Ukpowe — Newsletter</h1>
-        <p class="tagline">Daily “what’s trending” analysis with practical takeaways. Sponsor spotlights available when relevant.</p>
-      </div>
-      <div class="badges">
-        <div class="badge"><span class="dot"></span>Fresh daily posts</div>
-        <div class="badge">No spam • Just takeaways</div>
-      </div>
-    </div>
+  <title>{{ page.title | default: 'Newsletter' }}</title>
+  <meta name="description" content="Daily what’s trending analysis with practical takeaways." />
 
-    <div class="card">
-      <h2 class="section-title">Latest posts</h2>
-      <ul id="posts" class="post-list"></ul>
-      <footer>Updates are generated automatically from `/opt/data/content-arbitrage/output/`.</footer>
-    </div>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/editorial.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['ui-sans-serif','system-ui','-apple-system','Segoe UI','Roboto','Ubuntu','Arial','sans-serif'] },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div class="max-w-5xl mx-auto px-4">
+    <header class="py-10 flex flex-col gap-5">
+      <div class="flex items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-xl border bg-white flex items-center justify-center shadow-sm">
+            <span class="text-slate-700 font-bold">J</span>
+          </div>
+          <div>
+            <h1 class="text-xl md:text-2xl font-semibold leading-tight">Efezino Ukpowe — Newsletter</h1>
+            <p class="text-sm text-slate-600">Daily what’s trending analysis with practical takeaways.</p>
+          </div>
+        </div>
+        <div class="hidden md:flex items-center gap-2">
+          <span class="text-xs px-3 py-1 rounded-full border bg-white">No spam</span>
+          <span class="text-xs px-3 py-1 rounded-full border bg-white">Actionable</span>
+        </div>
+      </div>
+
+      <nav class="flex flex-wrap gap-2">
+        <a class="text-sm font-medium px-3 py-2 rounded-lg border bg-white hover:bg-slate-100" href="#latest">Latest</a>
+        <a class="text-sm font-medium px-3 py-2 rounded-lg border bg-white hover:bg-slate-100" href="#subscribe">Get updates</a>
+      </nav>
+    </header>
+
+    <main class="pb-16">
+      <section id="latest" class="mt-4">
+        <div class="flex items-end justify-between gap-3">
+          <div>
+            <h2 class="text-lg font-semibold">Latest posts</h2>
+            <p class="text-sm text-slate-600">Automatically generated from the pipeline.</p>
+          </div>
+          <div class="text-sm text-slate-500" id="count"></div>
+        </div>
+
+        <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4" aria-live="polite">
+          <ul id="posts" class="contents"></ul>
+        </div>
+      </section>
+
+      <section id="subscribe" class="mt-10">
+        <div class="rounded-2xl border bg-white shadow-sm p-6">
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+              <h3 class="font-semibold text-base">Want more like this?</h3>
+              <p class="text-sm text-slate-600">Reply with your use-case (founder, marketer, engineer, student). Tomorrow’s takeaways get tailored to you.</p>
+            </div>
+            <a class="inline-flex items-center justify-center px-5 py-3 rounded-xl border bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800" href="/">Home</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pb-10 text-center text-xs text-slate-500">
+      © {{ 'now' | date: '%Y' }} — Built for clarity. Generated automatically.
+    </footer>
   </div>
 
   <script>
+    (function(){
+      // Ensure Home link stays correct after repo name changes.
+      try {
+        const seg = window.location.pathname.split('/').filter(Boolean);
+        const repo = seg[0];
+        const home = window.location.origin + '/' + repo + '/';
+        document.querySelectorAll('a[href="/"]').forEach(a => a.href = home);
+      } catch(e) {}
+    })();
+
     fetch('feed.json')
       .then(r => r.ok ? r.json() : Promise.reject(r.status))
       .then(data => {
         const ul = document.getElementById('posts');
-        (data.items || []).forEach(it => {
+        const count = document.getElementById('count');
+        const items = data.items || [];
+        count.textContent = items.length ? `${items.length} posts` : '';
+
+        items.forEach(it => {
           const li = document.createElement('li');
-          li.className = 'post-item';
+          li.className = 'list-none';
 
           const a = document.createElement('a');
           a.href = it.url;
+          a.className = 'block h-full rounded-2xl border bg-white shadow-sm hover:shadow transition p-5';
 
-          const h3 = document.createElement('h3');
-          h3.textContent = it.title;
-          a.appendChild(h3);
+          const title = document.createElement('h3');
+          title.className = 'text-base font-semibold leading-snug';
+          title.textContent = it.title;
 
           const meta = document.createElement('p');
-          meta.className = 'post-meta';
-          const src = it.source ? it.source : 'newsletter';
-          meta.textContent = `${it.date} • ${src}`;
-          a.appendChild(meta);
+          meta.className = 'mt-2 text-sm text-slate-600';
+          meta.textContent = `${it.date} • ${it.source || 'newsletter'}`;
 
+          a.appendChild(title);
+          a.appendChild(meta);
           li.appendChild(a);
           ul.appendChild(li);
         });
       })
-      .catch(() => {})
+      .catch(() => {
+        document.getElementById('posts').innerHTML = '<div class="col-span-full text-sm text-slate-600">No posts yet.</div>';
+      });
   </script>
 </body>
 </html>
