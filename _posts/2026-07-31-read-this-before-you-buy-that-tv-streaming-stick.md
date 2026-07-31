@@ -2,7 +2,7 @@
 layout: post
 title: "Read This Before You Buy That TV Streaming Stick"
 date: 2026-07-31
-source: hackernews
+source: "hackernews"
 ---
 
 TITLE: Read This Before You Buy That TV Streaming Stick — What Brian Krebs Uncovered About Your Privacy
