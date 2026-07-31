@@ -1,18 +1,20 @@
 /* Non-AI, editorial typography for GitHub Pages posts.
-   Designed to work on dark page backgrounds (zinc/gray).
-   No gradients.
+   Designed for dark backgrounds.
 */
 
 .editorial-content {
   color: inherit;
-  font-size: 1.05rem;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 1.08rem;
   line-height: 1.9;
   font-weight: 400;
 
-  /* Professional long-form readability */
-  max-width: 75ch;
+  max-width: 68ch;
   margin-left: auto;
   margin-right: auto;
+
+  /* Prevent margin-collapsing between stacked blocks */
+  display: flow-root;
 
   word-break: break-word;
   letter-spacing: -0.01em;
@@ -20,33 +22,33 @@
 
 /* Headings */
 .editorial-content h2 {
-  margin: 2rem 0 0.85rem 0 !important;
-  padding: 0 !important;
+  margin: 2.2rem 0 1rem;
+  padding: 0;
   font-weight: 650;
-  font-size: 1.35rem;
+  font-size: 1.38rem;
   line-height: 1.25;
   letter-spacing: -0.015em;
 }
 
 .editorial-content h3 {
-  margin: 1.6rem 0 0.75rem 0 !important;
-  padding: 0 !important;
+  margin: 1.7rem 0 0.85rem;
+  padding: 0;
   font-weight: 650;
-  font-size: 1.12rem;
+  font-size: 1.14rem;
   line-height: 1.3;
   letter-spacing: -0.01em;
 }
 
 /* Paragraphs */
 .editorial-content p {
-  margin: 1.05rem 0 !important;
-  padding: 0 !important;
+  margin: 1.05rem 0;
+  padding: 0;
 }
 
 /* Lists */
 .editorial-content ul,
 .editorial-content ol {
-  margin: 1rem 0 1rem 1.25rem !important;
+  margin: 1rem 0 1rem 1.25rem;
   padding: 0;
 }
 
@@ -54,36 +56,48 @@
   margin: 0.45rem 0;
 }
 
-/* Images (featured + in-article) */
+/* Images */
 .editorial-content img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 14px;
   border: 1px solid rgba(148,163,184,.35);
-  margin: 1.25rem 0;
+  margin: 1.3rem 0;
   background: rgba(255,255,255,.03);
 }
 
 .editorial-content figure {
-  margin: 1.25rem 0;
+  margin: 1.3rem 0;
 }
 
 .editorial-content figcaption {
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
   font-size: 0.875rem;
-  color: rgba(148,163,184,.9);
+  color: rgba(148,163,184,.92);
 }
 
-.editorial-content p > img {
-  margin-left: 0;
-  margin-right: 0;
+/* Links */
+.editorial-content a {
+  color: #93c5fd;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(147,197,253,.25);
+}
+
+.editorial-content a:hover {
+  border-bottom-color: rgba(147,197,253,.65);
+}
+
+.editorial-content a:focus {
+  outline: 2px solid #60a5fa;
+  outline-offset: 3px;
+  border-bottom-color: transparent;
 }
 
 /* Blockquotes */
 .editorial-content blockquote {
-  margin: 1.25rem 0;
-  padding: 0.75rem 1rem;
+  margin: 1.4rem 0;
+  padding: 0.9rem 1rem;
   border-left: 4px solid rgba(148,163,184,.85);
   background: rgba(148,163,184,.10);
   border-radius: 10px;
@@ -107,23 +121,6 @@
   color: #e5e7eb;
   border: 1px solid rgba(148,163,184,.25);
   line-height: 1.6;
-}
-
-/* Links */
-.editorial-content a {
-  color: #93c5fd;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(147,197,253,.25);
-}
-
-.editorial-content a:hover {
-  border-bottom-color: rgba(147,197,253,.65);
-}
-
-.editorial-content a:focus {
-  outline: 2px solid #60a5fa;
-  outline-offset: 3px;
-  border-bottom-color: transparent;
 }
 
 /* HR */
@@ -153,15 +150,15 @@
 .editorial-content th {
   text-align: left;
   background: rgba(148,163,184,.10);
-  font-weight: 600;
-}
-
-.editorial-content table a {
-  border-bottom: 1px solid rgba(147,197,253,.25);
+  font-weight: 650;
 }
 
 /* Prevent awkward clipping on small screens */
 @media (max-width: 640px) {
+  .editorial-content {
+    font-size: 1.03rem;
+    max-width: 100%;
+  }
   .editorial-content img,
   .editorial-content table,
   .editorial-content pre {
