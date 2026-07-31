@@ -7,6 +7,11 @@
   color: inherit;
   font-size: 1rem;
   line-height: 1.75;
+  /* Professional long-form readability */
+  max-width: 75ch;
+  margin-left: auto;
+  margin-right: auto;
+  word-break: break-word;
 }
 
 /* Headings */
@@ -49,6 +54,16 @@
   border: 1px solid rgba(148,163,184,.35);
   margin: 1rem 0;
   background: rgba(255,255,255,.03);
+}
+
+.editorial-content figure {
+  margin: 1rem 0;
+}
+
+.editorial-content figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: rgba(148,163,184,.9);
 }
 
 .editorial-content p > img {
@@ -116,6 +131,15 @@
   margin: 1rem 0;
   border-radius: 12px;
   overflow: hidden;
+}
+
+/* Prevent awkward clipping on small screens */
+@media (max-width: 640px) {
+  .editorial-content img,
+  .editorial-content table,
+  .editorial-content pre {
+    max-width: 100%;
+  }
 }
 
 .editorial-content th,
