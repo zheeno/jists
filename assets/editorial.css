@@ -136,3 +136,46 @@
   .editorial-content{ max-width: 100%; font-size: 1.03rem; }
   .editorial-content h2.editorial-h2{ font-size: 1.28rem; padding-left: 12px; }
 }
+
+/* --- Hard overrides (article.css is also loaded on these pages) ---
+   Increase specificity so our editorial classes win over any theme/article rules. */
+article .editorial-content p{
+  margin: 0 !important;
+}
+
+article .editorial-content > * + *{
+  margin-top: 1.1rem !important;
+}
+
+article .editorial-content h2.editorial-h2{
+  margin: 0 !important;
+  padding: 0.65rem 0 0.45rem 14px !important;
+  border-left: 3px solid rgba(147,197,253,.85) !important;
+  background: rgba(147,197,253,.10) !important;
+  border-radius: 10px !important;
+  font-weight: 650 !important;
+}
+
+article .editorial-content h3.editorial-h3{
+  margin: 0 !important;
+  padding: 0.5rem 0 0.35rem 12px !important;
+  border-left: 3px solid rgba(124,92,255,.85) !important;
+  background: rgba(124,92,255,.10) !important;
+  border-radius: 10px !important;
+  font-weight: 650 !important;
+}
+
+article .editorial-content ul,
+article .editorial-content ol{
+  margin: 0 0 1.15rem 1.25rem !important;
+  padding: 0 !important;
+  list-style: disc !important;
+}
+
+article .editorial-content ol{ list-style: decimal !important; }
+
+article .editorial-content li{
+  margin: 0.35rem 0 !important;
+  display: list-item !important;
+}
+
