@@ -2,7 +2,7 @@
 layout: post
 title: "Stacked PRs are now live on GitHub"
 date: 2026-07-31
-source: hackernews
+source: "hackernews"
 ---
 
 ## TITLE
