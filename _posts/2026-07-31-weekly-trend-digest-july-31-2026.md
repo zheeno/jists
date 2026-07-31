@@ -19,7 +19,7 @@ source: "newsletter"
 
 ---
 
-## 2. Stacked PRs are now live on GitHub
+## 2. DeepSeek-V4-Flash Update
 
 **Source:** hackernews | **Virality Score:** 95/100
 
@@ -27,7 +27,7 @@ source: "newsletter"
 
 ---
 
-## 3. Gemini Robotics 2 brings whole body intelligence to robots
+## 3. Stacked PRs are now live on GitHub
 
 **Source:** hackernews | **Virality Score:** 95/100
 
@@ -35,7 +35,7 @@ source: "newsletter"
 
 ---
 
-## 4. Read this before you buy that TV streaming stick
+## 4. Gemini Robotics 2 brings whole body intelligence to robots
 
 **Source:** hackernews | **Virality Score:** 95/100
 
@@ -43,9 +43,9 @@ source: "newsletter"
 
 ---
 
-## 5. DeepSeek-V4-Flash Update
+## 5. Read this before you buy that TV streaming stick
 
-**Source:** hackernews | **Virality Score:** 89/100
+**Source:** hackernews | **Virality Score:** 95/100
 
 [Read full analysis →]
 
@@ -53,7 +53,7 @@ source: "newsletter"
 
 ## 6. I flagged two research papers for fake authors and both were accepted as orals
 
-**Source:** hackernews | **Virality Score:** 82/100
+**Source:** hackernews | **Virality Score:** 85/100
 
 [Read full analysis →]
 
