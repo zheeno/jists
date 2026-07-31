@@ -5,6 +5,8 @@ date: 2026-07-31
 source: "hackernews"
 ---
 
+![Featured image](https://source.unsplash.com/1600x900/?cybersecurity%2Chome+network%2Cprivacy)
+
 TITLE: Read This Before You Buy That TV Streaming Stick — What Brian Krebs Uncovered About Your Privacy
 META: Brian Krebs just dropped a bombshell investigation on TV streaming sticks. If you're streaming anything this weekend, you need to know what's living inside that HDMI dongle.
 BODY:
