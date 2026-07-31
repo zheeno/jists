@@ -4,39 +4,60 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="description" content="Newsletter post" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/editorial.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['ui-sans-serif','system-ui','-apple-system','Segoe UI','Roboto','Ubuntu','Arial','sans-serif'] },
+        }
+      }
+    }
+  </script>
 </head>
-<body>
-  <div class="container">
-    <p class="muted" style="margin:0 0 10px;color:var(--muted)">
-      <a id="homeLink" href="" style="color:var(--link)">← Home</a>
-    </p>
-
-    <div style="margin:6px 0 18px">
-      <h1 style="margin:0 0 6px;font-size:1.55rem;letter-spacing:-.02em">{{ page.title }}</h1>
-      <div class="meta" style="color:var(--muted);font-size:.95rem">
-        {{ page.date }} • {{ page.source | default: 'newsletter' }}
+<body class="bg-slate-50 text-slate-900">
+  <div class="max-w-3xl mx-auto px-4">
+    <header class="py-10">
+      <div class="flex items-start justify-between gap-4">
+        <a id="homeLink" class="inline-flex items-center gap-2 text-sm font-medium text-slate-700 hover:text-slate-900" href="#">
+          <span aria-hidden="true">←</span>
+          <span>Home</span>
+        </a>
+        <div class="text-xs text-slate-500 text-right" aria-label="post meta">
+          <div>{{ page.date }} • {{ page.source | default: 'newsletter' }}</div>
+        </div>
       </div>
-    </div>
 
-    <article>
-      {{ content }}
-    </article>
+      <h1 class="mt-6 text-3xl sm:text-4xl font-semibold leading-tight">{{ page.title }}</h1>
+    </header>
 
-    <div class="cta">
-      <h3>Want more like this?</h3>
-      <p>Reply with your use-case (founder, marketer, engineer, student). I’ll tailor tomorrow’s takeaways to what you’re actually building.</p>
-      <div style="margin-top:12px">
-        <a class="btn" href="" id="ctaHome">Back to homepage</a>
-      </div>
-    </div>
+    <main class="pb-14">
+      <article class="rounded-2xl border bg-white shadow-sm p-7">
+        <div class="editorial-content">
+          {{ content }}
+        </div>
 
-    <footer>Thanks for reading — share one practical takeaway.</footer>
+        <div class="mt-10 rounded-2xl border bg-slate-50 p-6">
+          <h3 class="font-semibold">Want more like this?</h3>
+          <p class="mt-2 text-sm text-slate-600">Reply with your use-case (founder, marketer, engineer, student). Tomorrow’s takeaways get tailored to what you’re building.</p>
+          <div class="mt-4">
+            <a id="ctaHome" class="inline-flex items-center justify-center px-5 py-3 rounded-xl border bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800" href="#">Back to homepage</a>
+          </div>
+        </div>
+      </article>
+
+      <footer class="mt-7 text-center text-xs text-slate-500">
+        Tip: share one takeaway with a friend or team.
+      </footer>
+    </main>
   </div>
 
   <script>
-    // Compute repo root dynamically so Home link works after renames.
-    // Example path: /jists/2026/07/31/post.html -> base is /jists/
+    // Compute repo root dynamically so links work after repo name changes.
     (function(){
       try {
         const seg = window.location.pathname.split('/').filter(Boolean);
