@@ -55,7 +55,7 @@ source: "newsletter"
 
 ## 6. Google fixed more Chrome bugs in June than over the past two years, thanks to AI
 
-**Source:** hackernews — **Virality Score:** 92/100
+**Source:** hackernews — **Virality Score:** 93/100
 
 [Read full analysis →](https://blog.google/security/chrome-stronger-with-every-update/)
 
