@@ -21,19 +21,19 @@ source: "newsletter"
 
 ---
 
-## 2. DeepSeek-V4-Flash Update
-
-**Source:** hackernews — **Virality Score:** 95/100
-
-[Read full analysis →](https://api-docs.deepseek.com/updates/)
-
----
-
-## 3. Stacked PRs are now live on GitHub
+## 2. Stacked PRs are now live on GitHub
 
 **Source:** hackernews — **Virality Score:** 95/100
 
 [Read full analysis →](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
+
+---
+
+## 3. DeepSeek-V4-Flash Update
+
+**Source:** hackernews — **Virality Score:** 95/100
+
+[Read full analysis →](https://api-docs.deepseek.com/updates/)
 
 ---
 
@@ -45,19 +45,19 @@ source: "newsletter"
 
 ---
 
-## 5. I flagged two research papers for fake authors and both were accepted as orals
+## 5. Read this before you buy that TV streaming stick
 
-**Source:** hackernews — **Virality Score:** 90/100
+**Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →](https://geospatialml.com/posts/reviewing-ai-slop/)
+[Read full analysis →](https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/)
 
 ---
 
-## 6. The Religion of Speed
+## 6. I flagged two research papers for fake authors and both were accepted as orals
 
-**Source:** hackernews — **Virality Score:** 85/100
+**Source:** hackernews — **Virality Score:** 92/100
 
-[Read full analysis →](https://graybeard.ing/the-religion-of-speed/)
+[Read full analysis →](https://geospatialml.com/posts/reviewing-ai-slop/)
 
 ---
 
