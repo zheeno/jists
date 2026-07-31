@@ -168,3 +168,71 @@ article h2{
 
 /* Make links inside posts nicer */
 article a{color:var(--link)}
+
+/* --- Engagement / Professional polish --- */
+*,*::before,*::after{box-sizing:border-box}
+
+h1,h2,h3{font-weight:700}
+
+/* Make headings feel premium */
+article h2{
+  padding-left:14px;
+}
+article h2::after{
+  content:"";
+  position:absolute;
+  left:0;
+  top:1.35em;
+  width:10px;
+  height:10px;
+  border-radius:6px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  transform:translateY(-50%);
+}
+
+article h2{
+  position:relative;
+  border-left:3px solid rgba(124,92,255,.55);
+  padding:14px 0 2px 14px;
+  margin-left:-14px;
+  background:linear-gradient(90deg, rgba(124,92,255,.14), rgba(124,92,255,0));
+  border-radius:12px;
+}
+
+article p{font-size:1.02rem}
+
+article img{max-width:100%;height:auto;border-radius:14px;border:1px solid var(--stroke)}
+
+/* CTA blocks */
+.cta{
+  border:1px solid rgba(124,92,255,.35);
+  background:linear-gradient(180deg, rgba(124,92,255,.14), rgba(124,92,255,.04));
+  border-radius:var(--radius);
+  padding:16px 18px;
+  margin-top:18px;
+}
+
+.cta h3{margin:0 0 6px;font-size:1.05rem}
+.cta p{margin:0;color:var(--muted)}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  padding:10px 14px;
+  border-radius:12px;
+  border:1px solid rgba(124,92,255,.5);
+  background:linear-gradient(135deg, rgba(124,92,255,.55), rgba(45,212,191,.25));
+  color:white;
+  font-weight:650;
+  text-decoration:none;
+  box-shadow:0 12px 30px rgba(0,0,0,.18);
+}
+.btn:hover{filter:brightness(1.05)}
+
+@media (max-width: 640px){
+  .topbar{flex-direction:column;align-items:flex-start}
+  .badges{justify-content:flex-start}
+  article{padding:16px}
+}
