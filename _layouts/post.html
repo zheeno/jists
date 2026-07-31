@@ -4,22 +4,40 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }}</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;max-width:900px;margin:48px auto;padding:0 16px;line-height:1.7}
-    .muted{color:#555}
-    a{color:#0b57d0;text-decoration:none}
-    a:hover{text-decoration:underline}
-    .meta{margin:10px 0 18px}
-  </style>
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
-  <a href="/" class="muted">← Home</a>
-  <h1 style="margin:10px 0 0">{{ page.title }}</h1>
-  <div class="meta muted">
-    {{ page.date }} • {{ page.source | default: 'newsletter' }}
+  <div class="container">
+    <p class="muted" style="margin:0 0 10px;color:var(--muted)">
+      <a id="homeLink" href="" style="color:var(--link)">← Home</a>
+    </p>
+
+    <div style="margin:6px 0 18px">
+      <h1 style="margin:0 0 6px;font-size:1.55rem;letter-spacing:-.02em">{{ page.title }}</h1>
+      <div class="meta" style="color:var(--muted);font-size:.95rem">
+        {{ page.date }} • {{ page.source | default: 'newsletter' }}
+      </div>
+    </div>
+
+    <article>
+      {{ content }}
+    </article>
+
+    <footer>Thanks for reading — share one practical takeaway.</footer>
   </div>
-  <article>
-    {{ content }}
-  </article>
+
+  <script>
+    // Compute repo root dynamically so Home link works after renames.
+    // Example path: /jists/2026/07/31/post.html -> base is /jists/
+    (function(){
+      try {
+        const seg = window.location.pathname.split('/').filter(Boolean);
+        const repo = seg[0];
+        const home = window.location.origin + '/' + repo + '/';
+        const el = document.getElementById('homeLink');
+        if (el) el.href = home;
+      } catch(e) {}
+    })();
+  </script>
 </body>
 </html>
