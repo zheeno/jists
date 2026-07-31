@@ -17,7 +17,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-Read full analysis →
+[Read full analysis →](https://earendil.com/posts/session-portability/)
 
 ---
 
@@ -25,7 +25,7 @@ Read full analysis →
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-Read full analysis →
+[Read full analysis →](https://api-docs.deepseek.com/updates/)
 
 ---
 
@@ -33,7 +33,7 @@ Read full analysis →
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-Read full analysis →
+[Read full analysis →](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
 
 ---
 
@@ -41,7 +41,7 @@ Read full analysis →
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-Read full analysis →
+[Read full analysis →](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)
 
 ---
 
@@ -49,7 +49,7 @@ Read full analysis →
 
 **Source:** hackernews — **Virality Score:** 90/100
 
-Read full analysis →
+[Read full analysis →](https://geospatialml.com/posts/reviewing-ai-slop/)
 
 ---
 
@@ -57,7 +57,7 @@ Read full analysis →
 
 **Source:** hackernews — **Virality Score:** 84/100
 
-Read full analysis →
+[Read full analysis →](https://graybeard.ing/the-religion-of-speed/)
 
 ---
 
