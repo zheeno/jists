@@ -21,11 +21,17 @@
 .editorial-content ul,
 .editorial-content ol{
   margin: 0 0 1.15rem 1.25rem !important;
-  padding: 0 !important;
+  padding: 0 0 0 1.1rem !important;
+  list-style: disc;
+}
+
+.editorial-content ol{
+  list-style: decimal;
 }
 
 .editorial-content li{
   margin: 0.35rem 0;
+  display: list-item;
 }
 
 .editorial-content hr{
