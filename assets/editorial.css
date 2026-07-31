@@ -76,3 +76,19 @@
   background: #e2e8f0;
   margin: 1.5rem 0;
 }
+
+/* Featured images */
+.editorial-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  margin: 1rem 0;
+  background: #f8fafc;
+}
+
+.editorial-content p > img {
+  margin-left: 0;
+  margin-right: 0;
+}
