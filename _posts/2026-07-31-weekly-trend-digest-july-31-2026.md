@@ -5,6 +5,8 @@ date: 2026-07-31
 source: "newsletter"
 ---
 
+![Featured image](https://source.unsplash.com/1600x900/?technology%2Cnews%2Cmodern)
+
 # This Week's Top Trends
 
 *Curated from Google Trends + Hacker News + Product Hunt | July 31, 2026*
