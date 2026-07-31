@@ -2,7 +2,7 @@
 layout: post
 title: "Gemini Robotics 2 brings whole body intelligence to robots"
 date: 2026-07-31
-source: hackernews
+source: "hackernews"
 ---
 
 ## TITLE
