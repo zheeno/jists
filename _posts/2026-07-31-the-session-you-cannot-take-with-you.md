@@ -5,6 +5,8 @@ date: 2026-07-31
 source: "hackernews"
 ---
 
+![Featured image](https://source.unsplash.com/1600x900/?privacy%2Ccybersecurity%2Ctechnology)
+
 ## TITLE
 
 The session you cannot take with you
