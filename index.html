@@ -4,40 +4,51 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Efezino Ukpowe — Newsletter</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;max-width:900px;margin:48px auto;padding:0 16px;line-height:1.6}
-    header{margin-bottom:28px}
-    .muted{color:#555}
-    ul{padding-left:18px}
-    .post-title{font-size:1.25rem;margin:14px 0 4px}
-    a{color:#0b57d0;text-decoration:none}
-    a:hover{text-decoration:underline}
-    .card{border:1px solid #e7e7e7;border-radius:12px;padding:14px 16px;margin:16px 0}
-  </style>
+  <meta name="description" content="Daily “what’s trending” analysis with practical takeaways." />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Efezino Ukpowe — Newsletter</h1>
-    <p class="muted">Daily “what’s trending” analysis with practical takeaways. Sponsor spotlights available when relevant.</p>
-  </header>
+  <div class="container">
+    <div class="topbar">
+      <div class="brand">
+        <h1>Efezino Ukpowe — Newsletter</h1>
+        <p class="tagline">Daily “what’s trending” analysis with practical takeaways. Sponsor spotlights available when relevant.</p>
+      </div>
+      <div class="badges">
+        <div class="badge"><span class="dot"></span>Fresh daily posts</div>
+        <div class="badge">No spam • Just takeaways</div>
+      </div>
+    </div>
 
-  <div class="card">
-    <h2 style="margin-top:0">Latest posts</h2>
-    <ul id="posts"></ul>
+    <div class="card">
+      <h2 class="section-title">Latest posts</h2>
+      <ul id="posts" class="post-list"></ul>
+      <footer>Updates are generated automatically from `/opt/data/content-arbitrage/output/`.</footer>
+    </div>
   </div>
 
   <script>
-    // Minimal client-side index: reads the generated RSS-like JSON file if present.
-    // If not present, it will stay empty.
     fetch('feed.json')
       .then(r => r.ok ? r.json() : Promise.reject(r.status))
       .then(data => {
         const ul = document.getElementById('posts');
         (data.items || []).forEach(it => {
           const li = document.createElement('li');
+          li.className = 'post-item';
+
           const a = document.createElement('a');
           a.href = it.url;
-          a.textContent = it.title;
+
+          const h3 = document.createElement('h3');
+          h3.textContent = it.title;
+          a.appendChild(h3);
+
+          const meta = document.createElement('p');
+          meta.className = 'post-meta';
+          const src = it.source ? it.source : 'newsletter';
+          meta.textContent = `${it.date} • ${src}`;
+          a.appendChild(meta);
+
           li.appendChild(a);
           ul.appendChild(li);
         });
