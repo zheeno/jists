@@ -5,7 +5,7 @@ date: 2026-07-31
 source: "newsletter"
 ---
 
-![Featured image](https://source.unsplash.com/1600x900/?technology%2Cnews%2Cmodern)
+![Featured image](https://picsum.photos/seed/technology%2Cnews%2Cmodern/1600/900)
 
 # This Week's Top Trends
 
@@ -55,7 +55,7 @@ source: "newsletter"
 
 ## 6. I flagged two research papers for fake authors and both were accepted as orals
 
-**Source:** hackernews — **Virality Score:** 85/100
+**Source:** hackernews — **Virality Score:** 89/100
 
 [Read full analysis →]
 
