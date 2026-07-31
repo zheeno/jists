@@ -21,19 +21,19 @@ source: "newsletter"
 
 ---
 
-## 2. Stacked PRs are now live on GitHub
-
-**Source:** hackernews — **Virality Score:** 95/100
-
-[Read full analysis →](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
-
----
-
-## 3. DeepSeek-V4-Flash Update
+## 2. DeepSeek-V4-Flash Update
 
 **Source:** hackernews — **Virality Score:** 95/100
 
 [Read full analysis →](https://api-docs.deepseek.com/updates/)
+
+---
+
+## 3. Stacked PRs are now live on GitHub
+
+**Source:** hackernews — **Virality Score:** 95/100
+
+[Read full analysis →](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
 
 ---
 
@@ -55,7 +55,7 @@ source: "newsletter"
 
 ## 6. I flagged two research papers for fake authors and both were accepted as orals
 
-**Source:** hackernews — **Virality Score:** 93/100
+**Source:** hackernews — **Virality Score:** 94/100
 
 [Read full analysis →](https://geospatialml.com/posts/reviewing-ai-slop/)
 
