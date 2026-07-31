@@ -21,11 +21,11 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="2-stacked-prs-are-now-live-on-github">2. Stacked PRs are now live on GitHub</h2>
+<h2 class="editorial-h2" id="2-google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai">2. Google fixed more Chrome bugs in June than over the past two years, thanks to AI</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
+[Read full analysis →](https://blog.google/security/chrome-stronger-with-every-update/)
 
 ---
 
@@ -37,19 +37,19 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="4-gemini-robotics-2-brings-whole-body-intelligence-to-robots">4. Gemini Robotics 2 brings whole body intelligence to robots</h2>
+<h2 class="editorial-h2" id="4-stacked-prs-are-now-live-on-github">4. Stacked PRs are now live on GitHub</h2>
+
+**Source:** hackernews — **Virality Score:** 95/100
+
+[Read full analysis →](https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/)
+
+---
+
+<h2 class="editorial-h2" id="5-gemini-robotics-2-brings-whole-body-intelligence-to-robots">5. Gemini Robotics 2 brings whole body intelligence to robots</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
 [Read full analysis →](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)
-
----
-
-<h2 class="editorial-h2" id="5-google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai">5. Google fixed more Chrome bugs in June than over the past two years, thanks to AI</h2>
-
-**Source:** hackernews — **Virality Score:** 94/100
-
-[Read full analysis →](https://blog.google/security/chrome-stronger-with-every-update/)
 
 ---
 
