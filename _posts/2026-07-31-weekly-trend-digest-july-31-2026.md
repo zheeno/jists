@@ -17,7 +17,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →](#)
+Read full analysis →
 
 ---
 
@@ -25,7 +25,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →](#)
+Read full analysis →
 
 ---
 
@@ -33,7 +33,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →](#)
+Read full analysis →
 
 ---
 
@@ -41,23 +41,23 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →](#)
+Read full analysis →
 
 ---
 
-## 5. Read this before you buy that TV streaming stick
+## 5. I flagged two research papers for fake authors and both were accepted as orals
 
-**Source:** hackernews — **Virality Score:** 95/100
+**Source:** hackernews — **Virality Score:** 90/100
 
-[Read full analysis →](#)
+Read full analysis →
 
 ---
 
-## 6. I flagged two research papers for fake authors and both were accepted as orals
+## 6. The Religion of Speed
 
-**Source:** hackernews — **Virality Score:** 89/100
+**Source:** hackernews — **Virality Score:** 84/100
 
-[Read full analysis →](#)
+Read full analysis →
 
 ---
 
