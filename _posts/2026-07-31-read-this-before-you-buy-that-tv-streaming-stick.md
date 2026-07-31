@@ -74,7 +74,7 @@ If you're securing your digital life, here are the tools that actually matter:
 
 ---
 
-*Issue #1 | July 31, 2026 | [Website] | [Twitter/X] | [LinkedIn]*
+*Issue #1 — July 31, 2026 — [Website] — [Twitter/X] — [LinkedIn]*
 
 ---
 
