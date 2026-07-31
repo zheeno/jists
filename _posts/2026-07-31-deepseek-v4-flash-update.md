@@ -2,7 +2,7 @@
 layout: post
 title: "DeepSeek-V4-Flash Update"
 date: 2026-07-31
-source: hackernews
+source: "hackernews"
 ---
 
 ## TITLE
