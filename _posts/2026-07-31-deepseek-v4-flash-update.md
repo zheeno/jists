@@ -5,6 +5,8 @@ date: 2026-07-31
 source: "hackernews"
 ---
 
+![Featured image](https://source.unsplash.com/1600x900/?artificial+intelligence%2Cdata+center%2Ctechnology)
+
 ## TITLE
 
 DeepSeek-V4-Flash Update
