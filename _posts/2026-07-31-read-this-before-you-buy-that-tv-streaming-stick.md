@@ -5,7 +5,7 @@ date: 2026-07-31
 source: "hackernews"
 ---
 
-![Featured image](https://source.unsplash.com/1600x900/?cybersecurity%2Chome+network%2Cprivacy)
+![Featured image](https://picsum.photos/seed/cybersecurity%2Chome+network%2Cprivacy/1600/900)
 
 
 ## What's Happening
