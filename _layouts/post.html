@@ -23,6 +23,14 @@
       {{ content }}
     </article>
 
+    <div class="cta">
+      <h3>Want more like this?</h3>
+      <p>Reply with your use-case (founder, marketer, engineer, student). I’ll tailor tomorrow’s takeaways to what you’re actually building.</p>
+      <div style="margin-top:12px">
+        <a class="btn" href="" id="ctaHome">Back to homepage</a>
+      </div>
+    </div>
+
     <footer>Thanks for reading — share one practical takeaway.</footer>
   </div>
 
@@ -36,6 +44,8 @@
         const home = window.location.origin + '/' + repo + '/';
         const el = document.getElementById('homeLink');
         if (el) el.href = home;
+        const cta = document.getElementById('ctaHome');
+        if (cta) cta.href = home;
       } catch(e) {}
     })();
   </script>
