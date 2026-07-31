@@ -55,7 +55,7 @@ source: "newsletter"
 
 ## 6. I flagged two research papers for fake authors and both were accepted as orals
 
-**Source:** hackernews — **Virality Score:** 92/100
+**Source:** hackernews — **Virality Score:** 93/100
 
 [Read full analysis →](https://geospatialml.com/posts/reviewing-ai-slop/)
 
