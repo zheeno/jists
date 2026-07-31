@@ -1,121 +1,78 @@
-/* Non-AI, editorial typography for GitHub Pages posts.
-   Designed for dark backgrounds.
-*/
+/* Editorial typography for GitHub Pages posts (dark theme). */
 
-.editorial-content {
-  color: inherit; 
-
-  /* Force consistent editorial spacing between block elements, regardless of
-     markdown spacing or margin-collapsing quirks. */
-  > * + * {
-    margin-top: 0.95rem !important;
-  }
-
-  /* Ensure headings/paragraphs don't inherit odd font weights. */
-
-  font-family: inherit;
-  
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+.editorial-content{
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
   font-size: 1.08rem;
   line-height: 1.9;
   font-weight: 400;
-
+  color: inherit;
   max-width: 68ch;
-  margin-left: auto;
-  margin-right: auto;
-
-  /* Prevent margin-collapsing between stacked blocks */
-  display: flow-root;
-
+  margin-left:auto;
+  margin-right:auto;
   word-break: break-word;
-  letter-spacing: -0.01em;
 }
 
-/* Headings */
-.editorial-content h2 {
-  margin: 2.2rem 0 1rem;
-  padding: 0;
+/* Block spacing */
+.editorial-content p{
+  margin: 0 0 1.05rem 0 !important;
+  padding: 0 !important;
+}
+
+.editorial-content ul,
+.editorial-content ol{
+  margin: 0 0 1.15rem 1.25rem !important;
+  padding: 0 !important;
+}
+
+.editorial-content li{
+  margin: 0.35rem 0;
+}
+
+.editorial-content hr{
+  margin: 1.6rem 0 !important;
+  border:0;
+  height:1px;
+  background: rgba(148,163,184,.25);
+}
+
+/* Headings: make them visually distinct even if margins are imperfect. */
+.editorial-content h2{
+  margin: 1.9rem 0 1rem 0 !important;
+  padding: 0.55rem 0 0.35rem 14px !important;
+  border-left: 3px solid rgba(147,197,253,.55);
+  background: rgba(147,197,253,.08);
+  border-radius: 10px;
   font-weight: 650;
   font-size: 1.38rem;
   line-height: 1.25;
   letter-spacing: -0.015em;
 }
 
-.editorial-content h3 {
-  margin: 1.7rem 0 0.85rem;
-  padding: 0;
+.editorial-content h3{
+  margin: 1.45rem 0 0.75rem 0 !important;
+  padding: 0.35rem 0 0.25rem 12px !important;
+  border-left: 3px solid rgba(124,92,255,.55);
+  background: rgba(124,92,255,.08);
+  border-radius: 10px;
   font-weight: 650;
   font-size: 1.14rem;
   line-height: 1.3;
   letter-spacing: -0.01em;
 }
 
-/* Paragraphs */
-.editorial-content p {
-  margin: 1.05rem 0;
-  padding: 0;
-}
-
-/* Lists */
-.editorial-content ul,
-.editorial-content ol {
-  margin: 1rem 0 1rem 1.25rem;
-  padding: 0;
-}
-
-.editorial-content li {
-  margin: 0.45rem 0;
-}
-
 /* Images */
-.editorial-content img {
-  display: block;
-  width: 100%;
-  height: auto;
+.editorial-content img{
+  display:block;
+  width:100%;
+  height:auto;
   border-radius: 14px;
   border: 1px solid rgba(148,163,184,.35);
   margin: 1.3rem 0;
   background: rgba(255,255,255,.03);
 }
 
-.editorial-content figure {
-  margin: 1.3rem 0;
-}
-
-.editorial-content figcaption {
-  margin-top: 0.6rem;
-  font-size: 0.875rem;
-  color: rgba(148,163,184,.92);
-}
-
-/* Links */
-.editorial-content a {
-  color: #93c5fd;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(147,197,253,.25);
-}
-
-.editorial-content a:hover {
-  border-bottom-color: rgba(147,197,253,.65);
-}
-
-.editorial-content a:focus {
-  outline: 2px solid #60a5fa;
-  outline-offset: 3px;
-  border-bottom-color: transparent;
-}
-
-/* Blockquotes */
-.editorial-content blockquote {
-  margin: 1.4rem 0;
-  padding: 0.9rem 1rem;
-  border-left: 4px solid rgba(148,163,184,.85);
-  background: rgba(148,163,184,.10);
-  border-radius: 10px;
-}
-
-/* Inline code + code blocks */
-.editorial-content code {
+/* Code */
+.editorial-content code{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   font-size: 0.95em;
   background: rgba(148,163,184,.12);
@@ -124,8 +81,8 @@
   border-radius: 8px;
 }
 
-.editorial-content pre {
-  overflow: auto;
+.editorial-content pre{
+  overflow:auto;
   padding: 1rem;
   border-radius: 14px;
   background: rgba(2,6,23,.92);
@@ -134,45 +91,36 @@
   line-height: 1.6;
 }
 
-/* HR */
-.editorial-content hr {
-  border: 0;
-  height: 1px;
-  background: rgba(148,163,184,.25);
-  margin: 1.5rem 0;
+/* Links */
+.editorial-content a{
+  color: #8ab4ff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(138,180,255,.25);
 }
 
-/* Markdown tables */
-.editorial-content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-  border-radius: 12px;
-  overflow: hidden;
+.editorial-content a:hover{
+  border-bottom-color: rgba(138,180,255,.65);
 }
 
-.editorial-content th,
-.editorial-content td {
-  border: 1px solid rgba(148,163,184,.22);
-  padding: 0.6rem 0.75rem;
-  vertical-align: top;
-}
-
-.editorial-content th {
-  text-align: left;
+/* Blockquotes */
+.editorial-content blockquote{
+  margin: 1.4rem 0 !important;
+  padding: 0.9rem 1rem !important;
+  border-left: 4px solid rgba(148,163,184,.85);
   background: rgba(148,163,184,.10);
-  font-weight: 650;
+  border-radius: 10px;
 }
 
-/* Prevent awkward clipping on small screens */
-@media (max-width: 640px) {
-  .editorial-content {
-    font-size: 1.03rem;
-    max-width: 100%;
-  }
-  .editorial-content img,
-  .editorial-content table,
-  .editorial-content pre {
-    max-width: 100%;
-  }
+/* Images/captions */
+.editorial-content figure{ margin: 1.3rem 0; }
+.editorial-content figcaption{
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  color: rgba(148,163,184,.92);
+}
+
+/* Small screens */
+@media (max-width: 640px){
+  .editorial-content{ max-width: 100%; font-size: 1.03rem; }
+  .editorial-content h2{ font-size: 1.28rem; padding-left: 12px; }
 }
