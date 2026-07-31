@@ -17,7 +17,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →]
+[Read full analysis →](#)
 
 ---
 
@@ -25,7 +25,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →]
+[Read full analysis →](#)
 
 ---
 
@@ -33,7 +33,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →]
+[Read full analysis →](#)
 
 ---
 
@@ -41,7 +41,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →]
+[Read full analysis →](#)
 
 ---
 
@@ -49,7 +49,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →]
+[Read full analysis →](#)
 
 ---
 
@@ -57,7 +57,7 @@ source: "newsletter"
 
 **Source:** hackernews — **Virality Score:** 89/100
 
-[Read full analysis →]
+[Read full analysis →](#)
 
 ---
 
