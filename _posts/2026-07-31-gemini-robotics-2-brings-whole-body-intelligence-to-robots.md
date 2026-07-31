@@ -5,7 +5,7 @@ date: 2026-07-31
 source: "hackernews"
 ---
 
-![Featured image](https://source.unsplash.com/1600x900/?robotics%2Ctechnology%2Cai)
+![Featured image](https://picsum.photos/seed/robotics%2Ctechnology%2Cai/1600/900)
 
 ## TITLE
 
