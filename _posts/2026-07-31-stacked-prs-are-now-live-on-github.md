@@ -5,7 +5,7 @@ date: 2026-07-31
 source: "hackernews"
 ---
 
-![Featured image](https://source.unsplash.com/1600x900/?github%2Csoftware+engineering%2Ccode+review)
+![Featured image](https://picsum.photos/seed/github%2Csoftware+engineering%2Ccode+review/1600/900)
 
 ## TITLE
 
