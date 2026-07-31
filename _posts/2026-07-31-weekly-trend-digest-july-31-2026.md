@@ -2,7 +2,7 @@
 layout: post
 title: "Weekly Trend Digest - July 31, 2026"
 date: 2026-07-31
-source: newsletter
+source: "newsletter"
 ---
 
 # This Week's Top Trends
