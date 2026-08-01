@@ -127,6 +127,25 @@ After adding or editing posts in `_posts/`:
 python3 scripts/generate-feed.py
 ```
 
+Each feed item powers the homepage article cards and includes:
+
+```json
+{
+  "title": "Elevators",
+  "url": "2026/08/01/elevators.html",
+  "date": "2026-08-01",
+  "source": "hackernews",
+  "category": "Infrastructure",
+  "author": "Efezino Ukpowe",
+  "readTime": "6 min read",
+  "excerpt": "You ride in them every day without a second thought…",
+  "imageUrl": "https://images.unsplash.com/photo-…",
+  "imageAlt": "Glass elevator shafts rising through a modern atrium"
+}
+```
+
+Curated Unsplash image mappings live in `scripts/generate-feed.py` (`IMAGE_LIBRARY`).
+
 ### Clean inline heading styles
 
 If generated posts include inline `style=""` on headings:

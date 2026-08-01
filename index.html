@@ -21,12 +21,12 @@ layout: default
     </div>
   </header>
 
-  <main id="content" style="padding-bottom: 4rem;">
-    <section id="latest" style="margin-top: 2rem;">
-      <div class="flex items-end justify-between gap-3" style="margin-bottom: 1rem;">
+  <main id="content" class="home-main">
+    <section id="latest" class="home-archive">
+      <div class="home-archive-header">
         <div>
           <p class="section-label">Archive</p>
-          <h2 class="font-display text-2xl font-medium" style="margin: 0.5rem 0 0; font-family: var(--font-display);">Latest issues</h2>
+          <h2 class="home-archive-title">Latest issues</h2>
         </div>
         <p id="post-count" class="section-label" aria-live="polite"></p>
       </div>
@@ -40,4 +40,4 @@ layout: default
   {% include footer.html %}
 </div>
 
-<script src="{{ '/assets/main.js' | relative_url }}?v=1"></script>
+<script src="{{ '/assets/main.js' | relative_url }}?v=2"></script>
