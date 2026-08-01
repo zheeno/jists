@@ -1,181 +1,185 @@
-/* Editorial typography for GitHub Pages posts (dark theme). */
+/* Editorial typography for article body content */
 
-.editorial-content{
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
-  font-size: 1.08rem;
-  line-height: 1.9;
-  font-weight: 400;
-  color: inherit;
-  max-width: 68ch;
-  margin-left:auto;
-  margin-right:auto;
+.editorial-content {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  color: var(--color-ink);
+  max-width: var(--measure);
+  margin-inline: auto;
   word-break: break-word;
 }
 
-/* Block spacing */
-.editorial-content p{
-  margin: 0 0 1.05rem 0 !important;
-  padding: 0 !important;
+.editorial-content > * + * {
+  margin-top: 1.1rem;
+}
+
+.editorial-content > p:first-of-type {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--color-ink-muted);
+}
+
+.editorial-content p {
+  margin: 0;
+}
+
+.editorial-content h1 {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-top: 2rem;
+}
+
+.editorial-content h2,
+.editorial-content .editorial-h2 {
+  font-family: var(--font-display);
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-rule);
+  border-left: none;
+  background: none;
+  border-radius: 0;
+  color: var(--color-ink);
+}
+
+.editorial-content h3,
+.editorial-content .editorial-h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-top: 2rem;
+  border: none;
+  background: none;
+  padding: 0;
+  color: var(--color-ink);
 }
 
 .editorial-content ul,
-.editorial-content ol{
-  margin: 0 0 1.15rem 1.25rem !important;
-  padding: 0 0 0 1.1rem !important;
-  list-style: disc;
+.editorial-content ol {
+  margin: 0;
+  padding-left: 1.25rem;
 }
 
-.editorial-content ol{
-  list-style: decimal;
+.editorial-content li {
+  margin: 0.4rem 0;
 }
 
-.editorial-content li{
-  margin: 0.35rem 0;
-  display: list-item;
+.editorial-content li::marker {
+  color: var(--color-accent);
 }
 
-.editorial-content hr{
-  margin: 1.6rem 0 !important;
-  border:0;
-  height:1px;
-  background: rgba(148,163,184,.25);
+.editorial-content hr {
+  margin: 2rem 0;
+  border: 0;
+  height: 1px;
+  background: var(--color-rule);
 }
 
-/* Headings */
-/* We target the explicit classes we inject (editorial-h2 / editorial-h3)
-   because some themes sometimes override generic h2/h3. */
-.editorial-content h2.editorial-h2,
-.editorial-h2{
-  display: block !important;
-  margin: 1.9rem 0 1rem 0 !important;
-  padding: 0.55rem 0 0.35rem 14px !important;
-  border-left: 3px solid rgba(147,197,253,.65) !important;
-  background: rgba(147,197,253,.10) !important;
-  border-radius: 10px;
-  font-weight: 650 !important;
-  font-size: 1.38rem !important;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
+.editorial-content blockquote {
+  font-family: var(--font-display);
+  font-size: 1.375rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--color-ink);
+  border-left: 3px solid var(--color-accent);
+  padding: 0 0 0 1.5rem;
+  margin: 2rem 0;
+  background: none;
+  border-radius: 0;
 }
 
-.editorial-content h3.editorial-h3,
-.editorial-h3{
-  display: block !important;
-  margin: 1.45rem 0 0.75rem 0 !important;
-  padding: 0.35rem 0 0.25rem 12px !important;
-  border-left: 3px solid rgba(124,92,255,.65) !important;
-  background: rgba(124,92,255,.10) !important;
-  border-radius: 10px;
-  font-weight: 650 !important;
-  font-size: 1.14rem !important;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
+.editorial-content a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color var(--duration-fast) var(--ease-out);
 }
 
-/* Images */
-.editorial-content img{
-  display:block;
-  width:100%;
-  height:auto;
-  border-radius: 14px;
-  border: 1px solid rgba(148,163,184,.35);
-  margin: 1.3rem 0;
-  background: rgba(255,255,255,.03);
+.editorial-content a:hover {
+  color: var(--color-accent-hover);
 }
 
-/* Code */
-.editorial-content code{
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-  font-size: 0.95em;
-  background: rgba(148,163,184,.12);
-  border: 1px solid rgba(148,163,184,.25);
-  padding: 0.1rem 0.35rem;
-  border-radius: 8px;
+.editorial-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  border: none;
+  border-radius: 0;
+  background: color-mix(in srgb, var(--color-ink) 3%, transparent);
 }
 
-.editorial-content pre{
-  overflow:auto;
-  padding: 1rem;
-  border-radius: 14px;
-  background: rgba(2,6,23,.92);
-  color: #e5e7eb;
-  border: 1px solid rgba(148,163,184,.25);
-  line-height: 1.6;
+.editorial-content figure {
+  margin: 2rem 0;
 }
 
-/* Links */
-.editorial-content a{
-  color: #8ab4ff;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(138,180,255,.25);
-}
-
-.editorial-content a:hover{
-  border-bottom-color: rgba(138,180,255,.65);
-}
-
-/* Blockquotes */
-.editorial-content blockquote{
-  margin: 1.4rem 0 !important;
-  padding: 0.9rem 1rem !important;
-  border-left: 4px solid rgba(148,163,184,.85);
-  background: rgba(148,163,184,.10);
-  border-radius: 10px;
-}
-
-/* Images/captions */
-.editorial-content figure{ margin: 1.3rem 0; }
-.editorial-content figcaption{
-  margin-top: 0.6rem;
+.editorial-content figcaption {
+  margin-top: 0.5rem;
   font-size: 0.875rem;
-  color: rgba(148,163,184,.92);
+  color: var(--color-ink-faint);
+  font-style: italic;
 }
 
-/* Small screens */
-@media (max-width: 640px){
-  .editorial-content{ max-width: 100%; font-size: 1.03rem; }
-  .editorial-content h2.editorial-h2{ font-size: 1.28rem; padding-left: 12px; }
+.editorial-content code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: color-mix(in srgb, var(--color-ink) 6%, transparent);
+  border: 1px solid var(--color-rule);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
 }
 
-/* --- Hard overrides (article.css is also loaded on these pages) ---
-   Increase specificity so our editorial classes win over any theme/article rules. */
-article .editorial-content p{
-  margin: 0 !important;
+.editorial-content pre {
+  overflow: auto;
+  padding: 1rem 1.25rem;
+  background: color-mix(in srgb, var(--color-ink) 95%, transparent);
+  color: var(--color-bg);
+  border: 1px solid var(--color-rule);
+  line-height: 1.6;
+  font-size: 0.9rem;
 }
 
-article .editorial-content > * + *{
-  margin-top: 1.1rem !important;
+.editorial-content pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
 }
 
-article .editorial-content h2.editorial-h2{
-  margin: 0 !important;
-  padding: 0.65rem 0 0.45rem 14px !important;
-  border-left: 3px solid rgba(147,197,253,.85) !important;
-  background: rgba(147,197,253,.10) !important;
-  border-radius: 10px !important;
-  font-weight: 650 !important;
+.editorial-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
 }
 
-article .editorial-content h3.editorial-h3{
-  margin: 0 !important;
-  padding: 0.5rem 0 0.35rem 12px !important;
-  border-left: 3px solid rgba(124,92,255,.85) !important;
-  background: rgba(124,92,255,.10) !important;
-  border-radius: 10px !important;
-  font-weight: 650 !important;
+.editorial-content th,
+.editorial-content td {
+  padding: 0.625rem 0.75rem;
+  border: 1px solid var(--color-rule);
+  text-align: left;
 }
 
-article .editorial-content ul,
-article .editorial-content ol{
-  margin: 0 0 1.15rem 1.25rem !important;
-  padding: 0 !important;
-  list-style: disc !important;
+.editorial-content th {
+  font-weight: 600;
+  background: color-mix(in srgb, var(--color-ink) 4%, transparent);
 }
 
-article .editorial-content ol{ list-style: decimal !important; }
+@media (max-width: 640px) {
+  .editorial-content {
+    font-size: 1.0625rem;
+  }
 
-article .editorial-content li{
-  margin: 0.35rem 0 !important;
-  display: list-item !important;
+  .editorial-content h2,
+  .editorial-content .editorial-h2 {
+    font-size: 1.5rem;
+  }
 }
-

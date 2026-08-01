@@ -1,0 +1,18 @@
+title: Efezino Ukpowe Newsletter
+description: Daily what's trending analysis with practical takeaways.
+author: Efezino Ukpowe
+url: https://zheeno.github.io
+baseurl: /jists
+lang: en
+
+permalink: /:year/:month/:day/:title.html
+
+exclude:
+  - README.md
+  - scripts/
+  - .github/
+  - .cursor/
+
+markdown: kramdown
+kramdown:
+  input: GFM

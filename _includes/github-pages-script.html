@@ -1,0 +1,17 @@
+<script>
+  (function () {
+    function homeUrl() {
+      try {
+        const seg = window.location.pathname.split('/').filter(Boolean);
+        if (seg.length && seg[0] !== 'index.html') {
+          return window.location.origin + '/' + seg[0] + '/';
+        }
+      } catch (e) {}
+      return './';
+    }
+
+    document.querySelectorAll('[data-home-link]').forEach(function (el) {
+      el.href = homeUrl();
+    });
+  })();
+</script>

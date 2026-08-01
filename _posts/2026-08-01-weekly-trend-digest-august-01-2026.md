@@ -13,7 +13,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="1-elevators" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">1. Elevators</h2>
+<h2 class="editorial-h2" id="1-elevators">1. Elevators</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -21,7 +21,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="2-qm-multiplayer-agent-harness-for-work" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">2. qm – Multiplayer agent harness for work</h2>
+<h2 class="editorial-h2" id="2-qm-multiplayer-agent-harness-for-work">2. qm – Multiplayer agent harness for work</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -29,7 +29,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="3-getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">3. Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio</h2>
+<h2 class="editorial-h2" id="3-getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio">3. Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio</h2>
 
 **Source:** hackernews — **Virality Score:** 78/100
 
@@ -37,7 +37,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="4-bmw-spider-man-in-car-advertising" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">4. BMW Spider-Man in-car advertising</h2>
+<h2 class="editorial-h2" id="4-bmw-spider-man-in-car-advertising">4. BMW Spider-Man in-car advertising</h2>
 
 **Source:** hackernews — **Virality Score:** 73/100
 
@@ -45,7 +45,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="5-progressive-web-components" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">5. Progressive Web Components</h2>
+<h2 class="editorial-h2" id="5-progressive-web-components">5. Progressive Web Components</h2>
 
 **Source:** hackernews — **Virality Score:** 70/100
 
@@ -53,7 +53,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="6-june-in-servo-real-world-compat-media-queries-sharedworker-and-more" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">6. June in Servo: real world compat, media queries, SharedWorker, and more</h2>
+<h2 class="editorial-h2" id="6-june-in-servo-real-world-compat-media-queries-sharedworker-and-more">6. June in Servo: real world compat, media queries, SharedWorker, and more</h2>
 
 **Source:** hackernews — **Virality Score:** 70/100
 
@@ -67,7 +67,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Sponsor Spotlight (Paid Partnership)</h2>
+<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership">Sponsor Spotlight (Paid Partnership)</h2>
 
 Brands aligned with the week’s topics can request a contextual sponsor section.
 
