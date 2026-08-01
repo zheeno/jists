@@ -9,9 +9,8 @@ layout: default
       <span>All issues</span>
     </a>
 
-    {% assign topic = page.category | default: page.categories.first %}
-    {% if topic %}
-      {% include category-badge.html category=topic %}
+    {% if page.category %}
+      <p class="article-category">{{ page.category }}</p>
     {% endif %}
 
     <p class="article-eyebrow">
