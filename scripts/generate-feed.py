@@ -6,8 +6,6 @@ from __future__ import annotations
 import json
 import math
 import re
-import subprocess
-import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -21,7 +19,6 @@ SOURCE_CATEGORY = {
     "hackernews": "Tech",
     "producthunt": "Products",
     "googletrends": "Trends",
-    "google_news_finance": "Finance",
 }
 
 FALLBACK_IMAGES = [
@@ -118,11 +115,6 @@ def strip_embedded_featured_images(body: str) -> str:
     return FEATURED_IMAGE_PATTERN.sub("", body).lstrip("\n")
 
 
-def slugify_category(name: str) -> str:
-    slug = name.lower().replace(" & ", "-").replace(" ", "-").replace("&", "").replace(".", "")
-    return re.sub(r"[^a-z0-9-]", "", slug)
-
-
 def serialize_front_matter(fm: dict[str, str]) -> str:
     order = [
         "layout",
@@ -148,11 +140,6 @@ def serialize_front_matter(fm: dict[str, str]) -> str:
             else:
                 lines.append(f"{key}: {value}")
             seen.add(key)
-
-            if key == "category":
-                lines.append("categories:")
-                lines.append(f"  - {value}")
-                seen.add("categories")
 
     for key, value in fm.items():
         if key in seen or not value:
@@ -180,11 +167,6 @@ def sync_post_file(md: Path, slug: str, media: dict[str, str], fm: dict[str, str
 
 
 def main() -> None:
-    subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "clean-post-headings.py")],
-        check=True,
-    )
-
     library = load_media_library()
     items = []
     posts = sorted(POSTS_DIR.glob("*.md"), reverse=True)
@@ -206,7 +188,6 @@ def main() -> None:
                 "date": fm.get("date", ""),
                 "source": source,
                 "category": media["category"],
-                "categorySlug": slugify_category(media["category"]),
                 "author": fm.get("author", AUTHOR),
                 "readTime": estimate_read_time(body),
                 "excerpt": extract_excerpt(body),
