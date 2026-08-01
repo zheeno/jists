@@ -214,8 +214,10 @@ When generating Jekyll newsletter markdown for zheeno/jists:
 3. Subsections use: <h3 class="editorial-h3" id="kebab-id">Title</h3>
 4. NEVER add style="" attributes or inline CSS to any element.
 5. NEVER use markdown ## for section headings.
-6. Do NOT include # title, featured images, or picsum/unsplash URLs in the body.
-7. Follow docs/HERMES_ARTICLE_STYLE.md in the jists repo for full templates.
+6. Include sourceUrl pointing at the original article. Do NOT use Unsplash/Picsum image URLs.
+7. Do NOT include # title or embedded featured images in the body.
+8. Only write files under _posts/. Never overwrite index.html, feed.json, or assets/.
+9. Follow docs/HERMES_ARTICLE_STYLE.md in the jists repo for full templates.
 ```
 
 ---
