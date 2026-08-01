@@ -2,10 +2,13 @@
 layout: post
 title: "Gemini Robotics 2 brings whole body intelligence to robots"
 date: 2026-07-31
-source: "hackernews"
+source: hackernews
+category: Robotics
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Humanoid robot silhouette in a research lab"
 ---
-
-![Featured image](https://picsum.photos/seed/robotics%2Ctechnology%2Cai/1600/900)
 
 In practice, **Gemini Robotics 2 brings whole body intelligence to robots** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 

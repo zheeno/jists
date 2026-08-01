@@ -116,6 +116,7 @@
   border: none;
   border-radius: 0;
   background: color-mix(in srgb, var(--color-ink) 3%, transparent);
+  aspect-ratio: auto;
 }
 
 .editorial-content figure {

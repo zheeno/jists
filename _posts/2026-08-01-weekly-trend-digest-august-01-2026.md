@@ -2,10 +2,13 @@
 layout: post
 title: "Weekly Trend Digest - August 01, 2026"
 date: 2026-08-01
-source: "newsletter"
+source: newsletter
+category: Digest
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Cnews%2Cmodern/1600/900)
 
 # This Week's Top Trends
 

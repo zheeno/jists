@@ -2,10 +2,13 @@
 layout: post
 title: "Read this before you buy that TV streaming stick"
 date: 2026-07-31
-source: "hackernews"
+source: hackernews
+category: Consumer Tech
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Living room television glowing in a dimly lit space"
 ---
-
-![Featured image](https://picsum.photos/seed/cybersecurity%2Chome+network%2Cprivacy/1600/900)
 
 In practice, **Read this before you buy that TV streaming stick** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 

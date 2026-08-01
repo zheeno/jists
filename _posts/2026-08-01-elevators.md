@@ -2,10 +2,13 @@
 layout: post
 title: "Elevators"
 date: 2026-08-01
-source: "hackernews"
+source: hackernews
+category: Infrastructure
+author: Efezino Ukpowe
+readTime: 5 min read
+imageUrl: https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Glass elevator shafts rising through a modern atrium"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 # The Vertical Revolution: How Elevators Transformed Human Civilization (And Continue To Do So)
 

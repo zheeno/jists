@@ -1,19 +1,5 @@
 /**
  * Homepage feed renderer.
- *
- * Expected feed item shape:
- * {
- *   title: string,
- *   url: string,
- *   date: string,
- *   source?: string,
- *   category?: string,
- *   author?: string,
- *   readTime?: string,
- *   excerpt?: string,
- *   imageUrl?: string,
- *   imageAlt?: string
- * }
  */
 (function () {
   const ul = document.getElementById('posts');
@@ -42,9 +28,31 @@
     });
   }
 
+  function createImage(item, index) {
+    const images = window.EditorialImages;
+    const img = images
+      ? images.create({
+          src: item.imageUrl,
+          alt: item.imageAlt || item.title,
+          fallbackAlt: item.imageAlt || item.title,
+          loading: index < 3 ? 'eager' : 'lazy',
+          className: 'post-card-image',
+          fetchPriority: index === 0 ? 'high' : undefined,
+        })
+      : Object.assign(document.createElement('img'), {
+          className: 'post-card-image editorial-image',
+          src: item.imageUrl,
+          alt: item.imageAlt || item.title,
+          loading: index < 3 ? 'eager' : 'lazy',
+          decoding: 'async',
+        });
+
+    return img;
+  }
+
   function showSkeletons() {
     ul.innerHTML = '';
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 6; i++) {
       const li = document.createElement('li');
       const featured = i === 0;
       li.className = featured ? 'post-card--featured' : 'post-card--compact';
@@ -53,11 +61,33 @@
         '<div class="skeleton-media"></div>' +
         '<div class="skeleton-line skeleton-line--short"></div>' +
         '<div class="skeleton-line skeleton-line--title"></div>' +
-        '<div class="skeleton-line skeleton-line--title2"></div>' +
         '<div class="skeleton-line skeleton-line--excerpt"></div>' +
         '</div>';
       ul.appendChild(li);
     }
+  }
+
+  function showError(message, retry) {
+    ul.innerHTML = '';
+    ul.setAttribute('aria-busy', 'false');
+
+    const li = document.createElement('li');
+    li.className = 'post-grid-error';
+
+    const text = document.createElement('p');
+    text.textContent = message;
+    li.appendChild(text);
+
+    if (retry) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'post-grid-retry';
+      button.textContent = 'Try again';
+      button.addEventListener('click', retry);
+      li.appendChild(button);
+    }
+
+    ul.appendChild(li);
   }
 
   function createCard(item, index) {
@@ -77,21 +107,15 @@
       a.appendChild(category);
     }
 
+    const media = document.createElement('div');
+    media.className = 'media-frame post-card-media';
     if (item.imageUrl) {
-      const media = document.createElement('div');
-      media.className = 'post-card-media';
-
-      const img = document.createElement('img');
-      img.className = 'post-card-image';
-      img.src = item.imageUrl;
-      img.alt = item.imageAlt || item.title;
-      img.loading = index < 2 ? 'eager' : 'lazy';
-      img.decoding = 'async';
-      if (index === 0) img.fetchPriority = 'high';
-
-      media.appendChild(img);
-      a.appendChild(media);
+      media.appendChild(createImage(item, index));
+    } else if (window.EditorialImages) {
+      media.classList.add('media-frame--fallback');
+      media.setAttribute('aria-label', item.title);
     }
+    a.appendChild(media);
 
     const body = document.createElement('div');
     body.className = 'post-card-body';
@@ -121,34 +145,40 @@
     return li;
   }
 
-  showSkeletons();
+  function loadFeed() {
+    showSkeletons();
+    ul.setAttribute('aria-busy', 'true');
 
-  fetch(basePath() + 'feed.json')
-    .then(function (r) {
-      return r.ok ? r.json() : Promise.reject(r.status);
-    })
-    .then(function (data) {
-      const items = data.items || [];
-      ul.innerHTML = '';
-      ul.setAttribute('aria-busy', 'false');
+    return fetch(basePath() + 'feed.json')
+      .then(function (r) {
+        return r.ok ? r.json() : Promise.reject(new Error('Feed unavailable'));
+      })
+      .then(function (data) {
+        const items = data.items || [];
+        ul.innerHTML = '';
+        ul.setAttribute('aria-busy', 'false');
 
-      if (countEl) {
-        countEl.textContent = items.length ? items.length + ' posts' : '';
-      }
+        if (countEl) {
+          countEl.textContent = items.length ? items.length + ' issues' : '';
+        }
 
-      if (!items.length) {
-        ul.innerHTML =
-          '<li class="post-grid-empty">No posts yet.</li>';
-        return;
-      }
+        if (!items.length) {
+          showError('No posts yet.');
+          return;
+        }
 
-      items.forEach(function (item, i) {
-        ul.appendChild(createCard(item, i));
+        items.forEach(function (item, i) {
+          ul.appendChild(createCard(item, i));
+        });
+
+        if (window.EditorialImages) {
+          window.EditorialImages.init(ul);
+        }
+      })
+      .catch(function () {
+        showError('Could not load the latest issues.', loadFeed);
       });
-    })
-    .catch(function () {
-      ul.innerHTML =
-        '<li class="post-grid-empty">Could not load posts. Check feed.json.</li>';
-      ul.setAttribute('aria-busy', 'false');
-    });
+  }
+
+  loadFeed();
 })();

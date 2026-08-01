@@ -2,10 +2,13 @@
 layout: post
 title: "Progressive Web Components"
 date: 2026-08-01
-source: "hackernews"
+source: hackernews
+category: Web
+author: Efezino Ukpowe
+readTime: 6 min read
+imageUrl: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Developer workstation with code on a dark monitor"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 # Progressive Web Components: The Future of Web Development is Already Here
 

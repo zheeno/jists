@@ -2,10 +2,13 @@
 layout: post
 title: "The session you cannot take with you"
 date: 2026-07-31
-source: "hackernews"
+source: hackernews
+category: Security
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Padlock resting on a laptop keyboard"
 ---
-
-![Featured image](https://picsum.photos/seed/privacy%2Ccybersecurity%2Ctechnology/1600/900)
 
 In practice, **The session you cannot take with you** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate feed.json from _posts with editorial card fields."""
+"""Regenerate feed.json and sync article media into post front matter."""
 
 from __future__ import annotations
 
@@ -8,94 +8,11 @@ import math
 import re
 from pathlib import Path
 
-POSTS_DIR = Path(__file__).resolve().parent.parent / "_posts"
-FEED_PATH = Path(__file__).resolve().parent.parent / "feed.json"
+ROOT = Path(__file__).resolve().parent.parent
+POSTS_DIR = ROOT / "_posts"
+FEED_PATH = ROOT / "feed.json"
+MEDIA_PATH = ROOT / "data" / "article-media.json"
 AUTHOR = "Efezino Ukpowe"
-
-# Editorial Unsplash placeholders keyed by post slug.
-# Format: https://images.unsplash.com/photo-...?auto=format&fit=crop&w=1600&q=80
-IMAGE_LIBRARY: dict[str, dict[str, str]] = {
-    "weekly-trend-digest-august-01-2026": {
-        "imageUrl": "https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Folded newspapers stacked on a desk in soft morning light",
-        "category": "Digest",
-    },
-    "weekly-trend-digest-july-31-2026": {
-        "imageUrl": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Person reading a newspaper at a cafe table",
-        "category": "Digest",
-    },
-    "elevators": {
-        "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Glass elevator shafts rising through a modern atrium",
-        "category": "Infrastructure",
-    },
-    "qm-multiplayer-agent-harness-for-work": {
-        "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Team collaborating around laptops in a bright studio",
-        "category": "Agents",
-    },
-    "getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio": {
-        "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Close-up of circuit board traces and connectors",
-        "category": "Hardware",
-    },
-    "bmw-spider-man-in-car-advertising": {
-        "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Sleek sports car dashboard illuminated at dusk",
-        "category": "Culture",
-    },
-    "progressive-web-components": {
-        "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Developer workstation with code on a dark monitor",
-        "category": "Web",
-    },
-    "june-in-servo-real-world-compat-media-queries-sharedworker-and-more": {
-        "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Colorful code editor reflected on a laptop screen",
-        "category": "Browsers",
-    },
-    "run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s": {
-        "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Abstract visualization of neural network connections",
-        "category": "AI",
-    },
-    "the-session-you-cannot-take-with-you": {
-        "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Padlock resting on a laptop keyboard",
-        "category": "Security",
-    },
-    "stacked-prs-are-now-live-on-github": {
-        "imageUrl": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Git branching diagram sketched on a notebook page",
-        "category": "Engineering",
-    },
-    "read-this-before-you-buy-that-tv-streaming-stick": {
-        "imageUrl": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Living room television glowing in a dimly lit space",
-        "category": "Consumer Tech",
-    },
-    "i-flagged-two-research-papers-for-fake-authors-and-both-were-accepted-as-orals": {
-        "imageUrl": "https://images.unsplash.com/photo-14565130808af995f60d6682?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Open academic books and research notes on a wooden desk",
-        "category": "Research",
-    },
-    "google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai": {
-        "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Browser windows layered on a desktop workspace",
-        "category": "Browsers",
-    },
-    "gemini-robotics-2-brings-whole-body-intelligence-to-robots": {
-        "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Humanoid robot silhouette in a research lab",
-        "category": "Robotics",
-    },
-    "deepseek-v4-flash-update": {
-        "imageUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80",
-        "imageAlt": "Rows of illuminated servers in a data center aisle",
-        "category": "AI",
-    },
-}
 
 SOURCE_CATEGORY = {
     "newsletter": "Digest",
@@ -119,16 +36,25 @@ FALLBACK_IMAGES = [
     },
 ]
 
+FEATURED_IMAGE_PATTERN = re.compile(
+    r"^!\[[^\]]*\]\(https?://(?:picsum\.photos|images\.unsplash\.com|pixabay\.com)[^)]*\)\s*\n?",
+    re.MULTILINE,
+)
+
+
+def load_media_library() -> dict[str, dict[str, str]]:
+    return json.loads(MEDIA_PATH.read_text(encoding="utf-8"))
+
 
 def parse_front_matter(text: str) -> tuple[dict, str]:
     if not text.startswith("---"):
         return {}, text
     end = text.index("---", 3)
-    fm = {}
+    fm: dict[str, str] = {}
     for line in text[3:end].strip().splitlines():
         if ":" in line:
-            k, v = line.split(":", 1)
-            fm[k.strip()] = v.strip().strip('"')
+            key, value = line.split(":", 1)
+            fm[key.strip()] = value.strip().strip('"')
     return fm, text[end + 3 :]
 
 
@@ -166,8 +92,10 @@ def estimate_read_time(body: str) -> str:
     return f"{minutes} min read"
 
 
-def resolve_media(slug_title: str, source: str, index: int) -> dict[str, str]:
-    curated = IMAGE_LIBRARY.get(slug_title)
+def resolve_media(
+    slug_title: str, source: str, index: int, library: dict[str, dict[str, str]]
+) -> dict[str, str]:
+    curated = library.get(slug_title)
     if curated:
         return {
             "imageUrl": curated["imageUrl"],
@@ -183,16 +111,73 @@ def resolve_media(slug_title: str, source: str, index: int) -> dict[str, str]:
     }
 
 
+def strip_embedded_featured_images(body: str) -> str:
+    return FEATURED_IMAGE_PATTERN.sub("", body).lstrip("\n")
+
+
+def serialize_front_matter(fm: dict[str, str]) -> str:
+    order = [
+        "layout",
+        "title",
+        "date",
+        "source",
+        "category",
+        "author",
+        "readTime",
+        "imageUrl",
+        "imageAlt",
+        "description",
+    ]
+    lines = ["---"]
+    seen: set[str] = set()
+
+    for key in order:
+        if key in fm and fm[key]:
+            value = fm[key]
+            if key in {"title", "imageAlt", "description"} and '"' not in value:
+                lines.append(f'{key}: "{value}"')
+            else:
+                lines.append(f"{key}: {value}")
+            seen.add(key)
+
+    for key, value in fm.items():
+        if key in seen or not value:
+            continue
+        if '"' not in value:
+            lines.append(f'{key}: "{value}"')
+        else:
+            lines.append(f"{key}: {value}")
+
+    lines.append("---")
+    return "\n".join(lines)
+
+
+def sync_post_file(md: Path, media: dict[str, str], fm: dict[str, str], body: str) -> None:
+    fm["layout"] = fm.get("layout", "post")
+    fm["category"] = media["category"]
+    fm["author"] = fm.get("author", AUTHOR)
+    fm["imageUrl"] = media["imageUrl"]
+    fm["imageAlt"] = media["imageAlt"]
+    fm["readTime"] = estimate_read_time(body)
+
+    cleaned_body = strip_embedded_featured_images(body)
+    md.write_text(serialize_front_matter(fm) + "\n\n" + cleaned_body.lstrip("\n"), encoding="utf-8")
+
+
 def main() -> None:
+    library = load_media_library()
     items = []
     posts = sorted(POSTS_DIR.glob("*.md"), reverse=True)
+
     for index, md in enumerate(posts):
         text = md.read_text(encoding="utf-8")
         fm, body = parse_front_matter(text)
         slug = md.stem
         _, _, _, title_slug = slug_parts(slug)
         source = fm.get("source", "newsletter")
-        media = resolve_media(title_slug, source, index)
+        media = resolve_media(title_slug, source, index, library)
+
+        sync_post_file(md, media, fm, body)
 
         items.append(
             {
@@ -210,7 +195,7 @@ def main() -> None:
         )
 
     FEED_PATH.write_text(json.dumps({"items": items}, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(items)} items to {FEED_PATH}")
+    print(f"Synced {len(items)} posts and wrote {FEED_PATH}")
 
 
 if __name__ == "__main__":
