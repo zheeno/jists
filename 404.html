@@ -1,0 +1,25 @@
+---
+layout: default
+title: Page not found
+permalink: /404.html
+sitemap: false
+---
+
+<div class="site-shell article-page">
+  <header class="article-header">
+    <a data-home-link href="./" class="back-link">
+      <span aria-hidden="true">←</span>
+      <span>Home</span>
+    </a>
+    <h1 class="article-title">Page not found</h1>
+    <p class="article-byline">The page you requested is not available.</p>
+  </header>
+
+  <div class="article-body">
+    <p style="color: var(--color-ink-muted); line-height: 1.7;">
+      Try returning to the <a href="{{ '/' | relative_url }}" style="color: var(--color-accent);">homepage</a> to browse the latest issues.
+    </p>
+  </div>
+
+  {% include footer.html %}
+</div>
