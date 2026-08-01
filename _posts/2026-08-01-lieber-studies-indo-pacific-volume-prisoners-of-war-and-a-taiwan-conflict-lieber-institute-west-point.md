@@ -3,14 +3,12 @@ layout: post
 title: "Lieber Studies Indo-Pacific Volume \u2013 Prisoners of War and a Taiwan Conflict - Lieber Institute West Point"
 date: 2026-08-01
 source: google_news_geopolitics
-category: Geopolitics
-categories:
-  - Geopolitics
+category: Tech
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point.html
-imageUrl: https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80
-imageAlt: "World map with strategic markers on a desk"
+imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Earth from orbit with city lights glowing at night"
 ---
 
 In practice, **Lieber Studies Indo-Pacific Volume – Prisoners of War and a Taiwan Conflict - Lieber Institute West Point** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
