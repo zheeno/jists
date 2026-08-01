@@ -4,8 +4,6 @@ title: "qm \u2013 Multiplayer agent harness for work"
 date: 2026-08-01
 source: hackernews
 category: Agents
-categories:
-  - Agents
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/qm-multiplayer-agent-harness-for-work.html
