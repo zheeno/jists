@@ -164,6 +164,37 @@ python3 scripts/clean-post-headings.py
 
 ---
 
+## SEO & sitemap
+
+The site uses the official **[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)** plugin. On every build, Jekyll generates `sitemap.xml` with absolute URLs for the homepage and all posts.
+
+### Configuration
+
+| Setting | Value |
+|---------|-------|
+| `url` | `https://zheeno.github.io` |
+| `baseurl` | `/jists` |
+| Sitemap URL | `https://zheeno.github.io/jists/sitemap.xml` |
+
+### robots.txt
+
+`robots.txt` is generated from the root template and points crawlers to the sitemap:
+
+```
+User-agent: *
+Allow: /
+
+Sitemap: https://zheeno.github.io/jists/sitemap.xml
+```
+
+### Excluding pages from the sitemap
+
+Add `sitemap: false` to a page's front matter. The `404.html` page and `robots.txt` are already excluded.
+
+Static assets, includes, layouts, `feed.json`, and files in `exclude` are not indexed.
+
+---
+
 ## Publishing workflow
 
 ### 1. Add or edit a post

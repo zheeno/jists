@@ -4,14 +4,34 @@ author: Efezino Ukpowe
 url: https://zheeno.github.io
 baseurl: /jists
 lang: en
+timezone: UTC
 
 permalink: /:year/:month/:day/:title.html
 
+plugins:
+  - jekyll-sitemap
+
+# Files and directories excluded from the Jekyll build output.
 exclude:
   - README.md
   - scripts/
   - .github/
   - .cursor/
+  - data/
+  - Gemfile
+  - Gemfile.lock
+
+# Defaults for generated pages and posts.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: "404.html"
+    values:
+      sitemap: false
 
 markdown: kramdown
 kramdown:
