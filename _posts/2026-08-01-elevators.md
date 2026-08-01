@@ -3,14 +3,11 @@ layout: post
 title: "Elevators"
 date: 2026-08-01
 source: hackernews
-sourceUrl: https://john.fun/elevators
 category: Infrastructure
-categories:
-  - Infrastructure
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/elevators.html
-imageUrl: https://john.fun/metadata/elevator/twitter-card.png
+imageUrl: https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Glass elevator shafts rising through a modern atrium"
 ---
 
