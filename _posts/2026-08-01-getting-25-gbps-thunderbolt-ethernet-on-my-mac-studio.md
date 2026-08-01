@@ -2,10 +2,13 @@
 layout: post
 title: "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio"
 date: 2026-08-01
-source: "hackernews"
+source: hackernews
+category: Hardware
+author: Efezino Ukpowe
+readTime: 6 min read
+imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Close-up of circuit board traces and connectors"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 # Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio
 

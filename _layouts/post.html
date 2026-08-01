@@ -2,15 +2,49 @@
 layout: default
 ---
 
-<article class="site-shell" style="max-width: 56rem;">
+<article class="site-shell article-page">
   <header class="article-header">
     <a data-home-link href="./" class="back-link">
       <span aria-hidden="true">←</span>
       <span>All issues</span>
     </a>
-    <p class="article-eyebrow">{{ page.date | date: '%B %d, %Y' }} · {{ page.source | default: 'newsletter' }}</p>
+
+    {% if page.category %}
+      <p class="article-category">{{ page.category }}</p>
+    {% endif %}
+
+    <p class="article-eyebrow">
+      {{ page.date | date: '%B %d, %Y' }}
+      {% if page.readTime %} · {{ page.readTime }}{% endif %}
+      · {{ page.source | default: 'newsletter' }}
+    </p>
+
     <h1 class="article-title">{{ page.title }}</h1>
+
+    {% if page.author %}
+      <p class="article-byline">By {{ page.author }}</p>
+    {% endif %}
   </header>
+
+  {% if page.imageUrl %}
+    <figure class="article-hero">
+      <div class="media-frame article-hero-frame">
+        <img
+          src="{{ page.imageUrl }}"
+          alt="{{ page.imageAlt | default: page.title }}"
+          class="editorial-image article-hero-image"
+          data-editorial-image
+          data-fallback-alt="{{ page.imageAlt | default: page.title }}"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+      </div>
+      {% if page.imageAlt %}
+        <figcaption class="article-hero-caption">{{ page.imageAlt }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
 
   <div id="content" class="article-body fade-in">
     <div class="editorial-content">{{ content }}</div>

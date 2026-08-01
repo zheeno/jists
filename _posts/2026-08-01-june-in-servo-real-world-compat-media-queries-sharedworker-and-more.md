@@ -2,10 +2,13 @@
 layout: post
 title: "June in Servo: real world compat, media queries, SharedWorker, and more"
 date: 2026-08-01
-source: "hackernews"
+source: hackernews
+category: Browsers
+author: Efezino Ukpowe
+readTime: 5 min read
+imageUrl: https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Colorful code editor reflected on a laptop screen"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 # June in Servo: The Browser Engine That's Finally Ready for Prime Time
 

@@ -2,10 +2,13 @@
 layout: post
 title: "Weekly Trend Digest - July 31, 2026"
 date: 2026-07-31
-source: "newsletter"
+source: newsletter
+category: Digest
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Person reading a newspaper at a cafe table"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Cnews%2Cmodern/1600/900)
 
 # This Week's Top Trends
 

@@ -2,10 +2,13 @@
 layout: post
 title: "qm \u2013 Multiplayer agent harness for work"
 date: 2026-08-01
-source: "hackernews"
+source: hackernews
+category: Agents
+author: Efezino Ukpowe
+readTime: 6 min read
+imageUrl: https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Team collaborating around laptops in a bright studio"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 # The Future of Work Just Got a Multiplayer Upgrade: Meet QM, the Agent Harness Revolutionizing Team Productivity
 

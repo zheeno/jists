@@ -2,10 +2,13 @@
 layout: post
 title: "Google fixed more Chrome bugs in June than over the past two years, thanks to AI"
 date: 2026-07-31
-source: "hackernews"
+source: hackernews
+category: Browsers
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Browser windows layered on a desktop workspace"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 In practice, **Google fixed more Chrome bugs in June than over the past two years, thanks to AI** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 

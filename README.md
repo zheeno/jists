@@ -144,7 +144,7 @@ Each feed item powers the homepage article cards and includes:
 }
 ```
 
-Curated Unsplash image mappings live in `scripts/generate-feed.py` (`IMAGE_LIBRARY`).
+Curated Unsplash image mappings live in `data/article-media.json` — the single source of truth for article media. Running `generate-feed.py` syncs those values into each post's front matter (`imageUrl`, `imageAlt`, `category`) and regenerates `feed.json`, so landing cards and article pages always match.
 
 ### Clean inline heading styles
 

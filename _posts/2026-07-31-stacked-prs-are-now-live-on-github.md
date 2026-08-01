@@ -2,10 +2,13 @@
 layout: post
 title: "Stacked PRs are now live on GitHub"
 date: 2026-07-31
-source: "hackernews"
+source: hackernews
+category: Engineering
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Git branching diagram sketched on a notebook page"
 ---
-
-![Featured image](https://picsum.photos/seed/github%2Csoftware+engineering%2Ccode+review/1600/900)
 
 In practice, **Stacked PRs are now live on GitHub** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 

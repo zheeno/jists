@@ -2,10 +2,13 @@
 layout: post
 title: "I flagged two research papers for fake authors and both were accepted as orals"
 date: 2026-07-31
-source: "hackernews"
+source: hackernews
+category: Research
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-14565130808af995f60d6682?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Open academic books and research notes on a wooden desk"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 In practice, **I flagged two research papers for fake authors and both were accepted as orals** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 

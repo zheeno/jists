@@ -2,10 +2,13 @@
 layout: post
 title: "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s"
 date: 2026-08-01
-source: "hackernews"
+source: hackernews
+category: AI
+author: Efezino Ukpowe
+readTime: 2 min read
+imageUrl: https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Abstract visualization of neural network connections"
 ---
-
-![Featured image](https://picsum.photos/seed/technology%2Csoftware%2Csecurity/1600/900)
 
 In practice, **Run Kimi K3 using 29 GB of RAM at 0.50 tok/s** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 
