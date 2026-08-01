@@ -3,12 +3,14 @@ layout: post
 title: "Lieber Studies Indo-Pacific Volume \u2013 Prisoners of War and a Taiwan Conflict - Lieber Institute West Point"
 date: 2026-08-01
 source: google_news_geopolitics
-category: Tech
+category: Geopolitics
+categories:
+  - Geopolitics
 author: Efezino Ukpowe
 readTime: 5 min read
 feedUrl: 2026/08/01/lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point.html
-imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Earth from orbit with city lights glowing at night"
+imageUrl: https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80
+imageAlt: "World map with strategic markers on a desk"
 ---
 
 What happens to captured soldiers when the world's two largest militaries clash over a democratic island of 23 million people? The Lieber Institute at West Point has just released a chilling analysis that every defense professional, policymaker, and concerned citizen needs to understand before tensions in the Taiwan Strait reach a point of no return.

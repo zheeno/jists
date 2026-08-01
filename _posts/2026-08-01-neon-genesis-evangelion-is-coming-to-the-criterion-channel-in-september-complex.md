@@ -3,12 +3,14 @@ layout: post
 title: "\u2018Neon Genesis Evangelion\u2019 Is Coming to the Criterion Channel in September - Complex"
 date: 2026-08-01
 source: google_news_popculture
-category: Tech
+category: Culture
+categories:
+  - Culture
 author: Efezino Ukpowe
 readTime: 5 min read
 feedUrl: 2026/08/01/neon-genesis-evangelion-is-coming-to-the-criterion-channel-in-september-complex.html
-imageUrl: https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Laptop with code on a sunlit desk"
+imageUrl: https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Cinematic light streaks in a dark theater"
 ---
 
 The most psychologically complex anime series ever made is about to get the prestige treatment it deserves. Neon Genesis Evangelion, the 1995 masterpiece that redefined both mecha anime and television storytelling, is officially coming to the Criterion Channel this September—marking a seismic shift in how we view anime's place in the cinematic canon.

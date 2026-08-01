@@ -4,6 +4,8 @@ title: "Weekly Trend Digest - August 01, 2026"
 date: 2026-08-01
 source: newsletter
 category: Digest
+categories:
+  - Digest
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/weekly-trend-digest-august-01-2026.html
