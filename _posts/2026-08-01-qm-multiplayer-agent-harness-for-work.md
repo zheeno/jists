@@ -11,7 +11,7 @@ source: "hackernews"
 
 Imagine if your entire workflow could be orchestrated by intelligent agents working in perfect harmony—no more context switching, no more dropped tasks, just seamless collaboration between AI and human teammates. That future isn't coming; it's here, and it's called QM, a multiplayer agent harness that's about to transform how we think about distributed work.
 
-<h2 class="editorial-h2" id="what-exactly-is-qm" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">What Exactly Is QM?</h2>
+<h2 class="editorial-h2" id="what-exactly-is-qm">What Exactly Is QM?</h2>
 
 QM (short for "Queue Manager") represents a fundamental shift in how we approach workplace automation and collaboration. Unlike traditional workflow tools that simply pass tasks from person to person, QM creates a shared environment where multiple AI agents can work alongside human team members in real-time, each contributing their specialized capabilities to complex projects.
 
@@ -19,7 +19,7 @@ Think of it as the difference between email chains and a well-orchestrated jazz 
 
 The system operates on what developers call a "harness" architecture, meaning it provides the underlying infrastructure for agents to plug in, communicate, and coordinate their efforts. This isn't about replacing human workers; it's about amplifying human capability through intelligent automation that actually understands the nuances of collaborative work.
 
-<h2 class="editorial-h2" id="why-qm-matters-right-now" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Why QM Matters Right Now</h2>
+<h2 class="editorial-h2" id="why-qm-matters-right-now">Why QM Matters Right Now</h2>
 
 The timing for QM couldn't be more critical. We're living through what workplace researchers are calling the "coordination crisis"—teams are more distributed than ever, projects are increasingly complex, and the cognitive overhead of managing multiple tools and contexts is burning people out faster than companies can hire replacements.
 
@@ -29,7 +29,7 @@ The remote work revolution accelerated by the pandemic has also created new chal
 
 Moreover, as AI capabilities continue to advance rapidly, organizations need infrastructure that can evolve with the technology rather than requiring constant rebuilds. QM's modular architecture means teams can integrate new AI capabilities as they become available, future-proofing their workflows against technological obsolescence.
 
-<h2 class="editorial-h2" id="who-should-pay-attention" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Who Should Pay Attention</h2>
+<h2 class="editorial-h2" id="who-should-pay-attention">Who Should Pay Attention</h2>
 
 Product managers and engineering leaders are the obvious early adopters, but QM's implications extend far beyond tech teams. Any organization dealing with complex, multi-step processes involving both human expertise and automatable tasks stands to benefit significantly.
 
@@ -37,7 +37,7 @@ Marketing teams orchestrating campaigns across multiple channels, legal departme
 
 Forward-thinking executives should also take note. QM represents a new category of workplace technology that could provide significant competitive advantages to early adopters. While competitors struggle with coordination overhead and context switching, organizations using QM can move faster and maintain higher quality standards across complex initiatives.
 
-<h2 class="editorial-h2" id="the-technical-innovation-behind-the-hype" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">The Technical Innovation Behind the Hype</h2>
+<h2 class="editorial-h2" id="the-technical-innovation-behind-the-hype">The Technical Innovation Behind the Hype</h2>
 
 What makes QM particularly interesting from a technical standpoint is its approach to agent communication and state management. Rather than relying on rigid APIs or predefined workflows, QM uses what its creators call "semantic handoffs"—agents can understand and build upon each other's work based on meaning and context, not just structured data.
 
@@ -45,7 +45,7 @@ This is achieved through a combination of advanced natural language processing a
 
 The multiplayer aspect isn't just marketing speak—QM genuinely enables multiple agents to work on different aspects of the same problem simultaneously, with built-in conflict resolution and consensus mechanisms. This parallel processing capability can dramatically accelerate complex workflows while maintaining coherence and quality.
 
-<h2 class="editorial-h2" id="key-takeaways" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Key Takeaways</h2>
+<h2 class="editorial-h2" id="key-takeaways">Key Takeaways</h2>
 
 • **QM transforms workplace collaboration by enabling AI agents and humans to work together in real-time**, maintaining full context and eliminating the productivity drains of traditional handoff-based workflows.
 
@@ -57,7 +57,7 @@ The multiplayer aspect isn't just marketing speak—QM genuinely enables multipl
 
 • **QM represents a new category of collaborative intelligence tools** that could provide significant competitive advantages to organizations that implement them effectively before they become mainstream.
 
-<h2 class="editorial-h2" id="looking-forward" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Looking Forward</h2>
+<h2 class="editorial-h2" id="looking-forward">Looking Forward</h2>
 
 As QM and similar technologies mature, we're likely to see a fundamental restructuring of how organizations approach project management and workflow design. The question isn't whether intelligent agent collaboration will become standard—it's whether your organization will be among the early adopters who help define best practices, or among the laggards scrambling to catch up.
 
@@ -65,7 +65,7 @@ The most successful implementations will likely come from teams that approach QM
 
 ---
 
-<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Sponsor Spotlight (Paid Partnership)</h2>
+<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership">Sponsor Spotlight (Paid Partnership)</h2>
 
 This newsletter is supported by partners who share our commitment to advancing the future of work:
 

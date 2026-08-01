@@ -13,7 +13,7 @@ Imagine building a web application where your components work seamlessly across 
 
 Progressive Web Components represent the convergence of two revolutionary web technologies: Progressive Web Apps (PWAs) and Web Components. While PWAs transformed how we think about web applications by bringing native app capabilities to the browser, Web Components gave us truly reusable, framework-agnostic UI elements. PWCs combine these approaches, creating components that are not only universally compatible but also progressively enhanced with advanced capabilities like offline functionality, background sync, and push notifications.
 
-<h2 class="editorial-h2" id="what-are-progressive-web-components" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">What Are Progressive Web Components?</h2>
+<h2 class="editorial-h2" id="what-are-progressive-web-components">What Are Progressive Web Components?</h2>
 
 At their core, Progressive Web Components are Web Components—custom HTML elements built using standard web APIs like Custom Elements, Shadow DOM, and HTML Templates—that incorporate progressive enhancement principles and PWA features. Unlike traditional components tied to specific frameworks like React or Vue, PWCs work everywhere: vanilla HTML, Angular applications, React projects, or any other web environment.
 
@@ -21,7 +21,7 @@ The "progressive" aspect means these components start with a solid baseline of f
 
 Consider a news article component: it renders readable content instantly, then progressively adds features like offline reading, background article updates, and push notifications for breaking news—all without requiring different implementations across different projects or frameworks.
 
-<h2 class="editorial-h2" id="why-progressive-web-components-matter-now" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Why Progressive Web Components Matter Now</h2>
+<h2 class="editorial-h2" id="why-progressive-web-components-matter-now">Why Progressive Web Components Matter Now</h2>
 
 The web development landscape has become increasingly fragmented. Teams often maintain separate codebases for different frameworks, duplicate components across projects, and struggle with inconsistent user experiences. PWCs address these pain points at a crucial time when businesses demand faster development cycles and consistent experiences across all touchpoints.
 
@@ -29,7 +29,7 @@ Browser support for Web Components has reached a tipping point, with all major b
 
 The economic argument is equally compelling. Organizations can dramatically reduce development and maintenance costs by building components once and using them everywhere. A design system built with PWCs works across all current and future framework choices, protecting technology investments and enabling teams to move faster.
 
-<h2 class="editorial-h2" id="who-should-care-about-progressive-web-components" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Who Should Care About Progressive Web Components</h2>
+<h2 class="editorial-h2" id="who-should-care-about-progressive-web-components">Who Should Care About Progressive Web Components</h2>
 
 **Frontend Developers** working across multiple frameworks will find PWCs liberating. Instead of rebuilding the same component in React, Vue, and Angular, you build it once and use it everywhere. This isn't just about code reuse—it's about mastering a technology that makes you more valuable and versatile.
 
@@ -39,7 +39,7 @@ The economic argument is equally compelling. Organizations can dramatically redu
 
 **Enterprise Architects** will appreciate how PWCs support long-term technology strategies. As frameworks come and go, PWCs provide stability. They're built on web standards that will outlast any particular framework, making them ideal for organizations planning years ahead.
 
-<h2 class="editorial-h2" id="implementation-strategies-and-best-practices" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Implementation Strategies and Best Practices</h2>
+<h2 class="editorial-h2" id="implementation-strategies-and-best-practices">Implementation Strategies and Best Practices</h2>
 
 Building effective PWCs requires thinking differently about component architecture. Start with the principle of progressive enhancement: ensure your component provides value even in the most constrained environments, then layer on advanced features.
 
@@ -49,7 +49,7 @@ Consider the loading strategy carefully. PWCs should render meaningful content q
 
 Design your component APIs to be framework-agnostic. Avoid patterns that work well in one framework but poorly in others. Instead, embrace web standards like custom events for communication and HTML attributes for configuration.
 
-<h2 class="editorial-h2" id="the-road-ahead" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">The Road Ahead</h2>
+<h2 class="editorial-h2" id="the-road-ahead">The Road Ahead</h2>
 
 Progressive Web Components represent more than a technical evolution—they're a paradigm shift toward truly universal web development. As browser APIs continue advancing and developer tooling improves, PWCs will become even more powerful and easier to implement.
 
@@ -57,7 +57,7 @@ The emergence of technologies like WebAssembly, advanced caching strategies, and
 
 Early adopters are already seeing the benefits: faster development cycles, more consistent user experiences, and reduced technical complexity. As the ecosystem matures, these advantages will only become more pronounced.
 
-<h2 class="editorial-h2" id="key-takeaways" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Key Takeaways</h2>
+<h2 class="editorial-h2" id="key-takeaways">Key Takeaways</h2>
 
 • **Universal Compatibility**: PWCs work across all frameworks and vanilla HTML, eliminating the need to rebuild components for different technology stacks
 
@@ -71,7 +71,7 @@ Early adopters are already seeing the benefits: faster development cycles, more 
 
 ---
 
-<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Sponsor Spotlight (Paid Partnership)</h2>
+<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership">Sponsor Spotlight (Paid Partnership)</h2>
 
 This newsletter is made possible by partnerships with industry-leading companies. Suggested sponsor categories for this topic include:
 

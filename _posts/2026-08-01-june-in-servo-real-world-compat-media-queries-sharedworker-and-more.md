@@ -11,7 +11,7 @@ source: "hackernews"
 
 Servo just shipped a game-changing update that brings real-world website compatibility closer than ever before. After years of development as Mozilla's experimental browser engine, Servo is now demonstrating the kind of practical progress that could reshape how we think about web performance and security.
 
-<h2 class="editorial-h2" id="what-is-servo-and-why-should-you-care" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">What is Servo and Why Should You Care?</h2>
+<h2 class="editorial-h2" id="what-is-servo-and-why-should-you-care">What is Servo and Why Should You Care?</h2>
 
 Servo is a modern browser engine written in Rust, originally developed by Mozilla Research as a ground-up reimagining of how browsers should work. Unlike traditional browser engines that evolved from decades-old codebases, Servo was designed from day one with memory safety, parallelism, and modern web standards in mind.
 
@@ -19,7 +19,7 @@ The project gained renewed momentum when it transitioned to the Linux Foundation
 
 What makes Servo particularly compelling right now is its timing. As web applications become increasingly complex and security vulnerabilities in traditional browsers continue to make headlines, Servo's Rust-based architecture offers a glimpse into a more secure future for web browsing.
 
-<h2 class="editorial-h2" id="june-s-major-breakthrough-real-world-compatibility" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">June's Major Breakthrough: Real-World Compatibility</h2>
+<h2 class="editorial-h2" id="june-s-major-breakthrough-real-world-compatibility">June's Major Breakthrough: Real-World Compatibility</h2>
 
 The June update represents a significant milestone in Servo's evolution from research project to practical browser engine. The team has made substantial progress on the features that matter most for everyday web browsing.
 
@@ -33,7 +33,7 @@ The SharedWorker implementation includes proper isolation between different orig
 
 **CSS Grid and Flexbox Improvements** round out the major compatibility enhancements. The team has fixed numerous edge cases in both layout systems, particularly around sizing calculations and alignment properties. These improvements mean that modern CSS layouts now render much more consistently with other browsers.
 
-<h2 class="editorial-h2" id="performance-and-security-advantages" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Performance and Security Advantages</h2>
+<h2 class="editorial-h2" id="performance-and-security-advantages">Performance and Security Advantages</h2>
 
 Beyond compatibility, Servo continues to demonstrate the performance advantages of its parallel architecture. The engine can simultaneously process CSS styling, layout calculations, and rendering across multiple CPU cores—something traditional browser engines struggle with due to their single-threaded heritage.
 
@@ -41,7 +41,7 @@ Memory safety remains Servo's strongest selling point. Written in Rust, Servo el
 
 Early benchmarks suggest that Servo's approach delivers meaningful performance improvements on multi-core systems, particularly for CSS-heavy pages and complex layouts. While still not matching the raw JavaScript performance of highly optimized engines like V8, Servo's parallel rendering pipeline often compensates for this difference in real-world usage.
 
-<h2 class="editorial-h2" id="who-should-pay-attention" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Who Should Pay Attention</h2>
+<h2 class="editorial-h2" id="who-should-pay-attention">Who Should Pay Attention</h2>
 
 **Web developers** should monitor Servo's progress closely. As the engine matures, it could become a valuable testing target for ensuring cross-browser compatibility. Servo's strict standards compliance also makes it useful for identifying non-standard code that works in other browsers by accident.
 
@@ -51,7 +51,7 @@ Early benchmarks suggest that Servo's approach delivers meaningful performance i
 
 **System integrators** building embedded systems or specialized applications may find Servo's modular architecture and safety guarantees attractive compared to embedding traditional browser engines.
 
-<h2 class="editorial-h2" id="key-takeaways" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Key Takeaways</h2>
+<h2 class="editorial-h2" id="key-takeaways">Key Takeaways</h2>
 
 • **Servo's June update delivers significant real-world compatibility improvements**, particularly for responsive design and modern web applications
 
@@ -63,7 +63,7 @@ Early benchmarks suggest that Servo's approach delivers meaningful performance i
 
 • **Cross-browser testing with Servo can help identify standards compliance issues** in web development workflows
 
-<h2 class="editorial-h2" id="looking-ahead" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Looking Ahead</h2>
+<h2 class="editorial-h2" id="looking-ahead">Looking Ahead</h2>
 
 The June update positions Servo as more than just an interesting research project. While it's not yet ready to replace your daily browser, the progress toward real-world compatibility suggests that timeline may be shorter than many expect.
 
@@ -73,7 +73,7 @@ For the broader web ecosystem, Servo represents something valuable: proof that w
 
 ---
 
-<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Sponsor Spotlight (Paid Partnership)</h2>
+<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership">Sponsor Spotlight (Paid Partnership)</h2>
 
 This newsletter is supported by partners who share our commitment to advancing web technology:
 

@@ -1,1 +1,116 @@
-{"items": [{"title": "Weekly Trend Digest - August 01, 2026", "url": "2026/08/01/weekly-trend-digest-august-01-2026.html", "date": "2026-08-01", "source": "newsletter"}, {"title": "Elevators", "url": "2026/08/01/elevators.html", "date": "2026-08-01", "source": "hackernews"}, {"title": "qm – Multiplayer agent harness for work", "url": "2026/08/01/qm-multiplayer-agent-harness-for-work.html", "date": "2026-08-01", "source": "hackernews"}, {"title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio", "url": "2026/08/01/getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio.html", "date": "2026-08-01", "source": "hackernews"}, {"title": "BMW Spider-Man in-car advertising", "url": "2026/08/01/bmw-spider-man-in-car-advertising.html", "date": "2026-08-01", "source": "hackernews"}, {"title": "Progressive Web Components", "url": "2026/08/01/progressive-web-components.html", "date": "2026-08-01", "source": "hackernews"}, {"title": "June in Servo: real world compat, media queries, SharedWorker, and more", "url": "2026/08/01/june-in-servo-real-world-compat-media-queries-sharedworker-and-more.html", "date": "2026-08-01", "source": "hackernews"}]}
+{
+  "items": [
+    {
+      "title": "Weekly Trend Digest - August 01, 2026",
+      "url": "2026/08/01/weekly-trend-digest-august-01-2026.html",
+      "date": "2026-08-01",
+      "source": "newsletter",
+      "excerpt": "Curated from Google Trends + Hacker News + Product Hunt \u2014 August 01, 2026"
+    },
+    {
+      "title": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
+      "url": "2026/08/01/run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s.html",
+      "date": "2026-08-01",
+      "source": "hackernews",
+      "excerpt": "In practice, Run Kimi K3 using 29 GB of RAM at 0.50 tok/s matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economic\u2026"
+    },
+    {
+      "title": "qm \\u2013 Multiplayer agent harness for work",
+      "url": "2026/08/01/qm-multiplayer-agent-harness-for-work.html",
+      "date": "2026-08-01",
+      "source": "hackernews",
+      "excerpt": "Imagine if your entire workflow could be orchestrated by intelligent agents working in perfect harmony\u2014no more context switching, no more dropped tasks, just se\u2026"
+    },
+    {
+      "title": "Progressive Web Components",
+      "url": "2026/08/01/progressive-web-components.html",
+      "date": "2026-08-01",
+      "source": "hackernews",
+      "excerpt": "Imagine building a web application where your components work seamlessly across any framework, load instantly, and provide native app-like experiences\u2014all while\u2026"
+    },
+    {
+      "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
+      "url": "2026/08/01/june-in-servo-real-world-compat-media-queries-sharedworker-and-more.html",
+      "date": "2026-08-01",
+      "source": "hackernews",
+      "excerpt": "Servo just shipped a game-changing update that brings real-world website compatibility closer than ever before. After years of development as Mozilla's experime\u2026"
+    },
+    {
+      "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+      "url": "2026/08/01/getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio.html",
+      "date": "2026-08-01",
+      "source": "hackernews",
+      "excerpt": "When I first saw my Mac Studio's network transfer speeds hit 25 Gbps, I literally did a double-take at my Activity Monitor. After years of being bottlenecked by\u2026"
+    },
+    {
+      "title": "Elevators",
+      "url": "2026/08/01/elevators.html",
+      "date": "2026-08-01",
+      "source": "hackernews",
+      "excerpt": "You ride in them every day without a second thought, yet elevators are quietly reshaping our cities, our health, and our future in ways that would astonish thei\u2026"
+    },
+    {
+      "title": "BMW Spider-Man in-car advertising",
+      "url": "2026/08/01/bmw-spider-man-in-car-advertising.html",
+      "date": "2026-08-01",
+      "source": "hackernews",
+      "excerpt": "Picture this: you're driving your BMW when suddenly Spider-Man's web appears on your dashboard screen, and the friendly neighborhood superhero starts chatting w\u2026"
+    },
+    {
+      "title": "Weekly Trend Digest - July 31, 2026",
+      "url": "2026/07/31/weekly-trend-digest-july-31-2026.html",
+      "date": "2026-07-31",
+      "source": "newsletter",
+      "excerpt": "Curated from Google Trends + Hacker News + Product Hunt \u2014 July 31, 2026"
+    },
+    {
+      "title": "The session you cannot take with you",
+      "url": "2026/07/31/the-session-you-cannot-take-with-you.html",
+      "date": "2026-07-31",
+      "source": "hackernews",
+      "excerpt": "In practice, The session you cannot take with you matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics."
+    },
+    {
+      "title": "Stacked PRs are now live on GitHub",
+      "url": "2026/07/31/stacked-prs-are-now-live-on-github.html",
+      "date": "2026-07-31",
+      "source": "hackernews",
+      "excerpt": "In practice, Stacked PRs are now live on GitHub matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics."
+    },
+    {
+      "title": "Read this before you buy that TV streaming stick",
+      "url": "2026/07/31/read-this-before-you-buy-that-tv-streaming-stick.html",
+      "date": "2026-07-31",
+      "source": "hackernews",
+      "excerpt": "In practice, Read this before you buy that TV streaming stick matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better econ\u2026"
+    },
+    {
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "url": "2026/07/31/i-flagged-two-research-papers-for-fake-authors-and-both-were-accepted-as-orals.html",
+      "date": "2026-07-31",
+      "source": "hackernews",
+      "excerpt": "In practice, I flagged two research papers for fake authors and both were accepted as orals matters because it changes what you can ship\u2014faster, with fewer fail\u2026"
+    },
+    {
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "2026/07/31/google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai.html",
+      "date": "2026-07-31",
+      "source": "hackernews",
+      "excerpt": "In practice, Google fixed more Chrome bugs in June than over the past two years, thanks to AI matters because it changes what you can ship\u2014faster, with fewer fa\u2026"
+    },
+    {
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "2026/07/31/gemini-robotics-2-brings-whole-body-intelligence-to-robots.html",
+      "date": "2026-07-31",
+      "source": "hackernews",
+      "excerpt": "In practice, Gemini Robotics 2 brings whole body intelligence to robots matters because it changes what you can ship\u2014faster, with fewer failure modes, or with b\u2026"
+    },
+    {
+      "title": "DeepSeek-V4-Flash Update",
+      "url": "2026/07/31/deepseek-v4-flash-update.html",
+      "date": "2026-07-31",
+      "source": "hackernews",
+      "excerpt": "In practice, DeepSeek-V4-Flash Update matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics."
+    }
+  ]
+}
