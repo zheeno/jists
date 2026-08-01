@@ -17,7 +17,6 @@ A premium editorial newsletter site built with **Jekyll** and deployed to **GitH
 - [GitHub Pages deployment](#github-pages-deployment)
 - [Maintenance scripts](#maintenance-scripts)
 - [Customization](#customization)
-- [Hermes agent (content generation)](#hermes-agent-content-generation)
 
 ---
 
@@ -59,8 +58,6 @@ The site uses a **typography-first editorial design**: serif headlines, clean sa
 ├── scripts/
 │   ├── generate-feed.py     # Regenerate feed.json from _posts
 │   └── clean-post-headings.py
-├── docs/
-│   └── HERMES_ARTICLE_STYLE.md  # Style rules for the Hermes article generator
 ├── .github/workflows/
 │   └── pages.yml            # CI/CD: build Jekyll → deploy Pages
 ├── index.html               # Homepage (Jekyll layout)
@@ -220,11 +217,7 @@ description: "Optional SEO description for meta tags."
 ---
 ```
 
-Write content in Markdown. **Section headings must use HTML with editorial classes** — see [Hermes agent style guide](docs/HERMES_ARTICLE_STYLE.md). Do **not** add inline `style=""` attributes; `assets/editorial.css` handles all presentation.
-
-```html
-<h2 class="editorial-h2" id="what-changed">What changed</h2>
-```
+Write content in Markdown. Use `##` for section headings — do **not** add inline styles. The `editorial.css` stylesheet handles all heading presentation.
 
 ### 2. Update the feed
 
@@ -274,10 +267,10 @@ To use a custom domain, add a `CNAME` file and update `_config.yml` `url` and `b
 
 | Script | Purpose |
 |--------|---------|
-| `scripts/generate-feed.py` | Strip legacy inline heading styles, build `feed.json`, sync front matter from `_posts/*.md` |
-| `scripts/clean-post-headings.py` | Strip inline `style=""` from `<h2 class="editorial-h2">` and `<h3 class="editorial-h3">` tags |
+| `scripts/generate-feed.py` | Build `feed.json` from all `_posts/*.md` files |
+| `scripts/clean-post-headings.py` | Strip inline `style=""` from generated heading tags |
 
-`generate-feed.py` runs `clean-post-headings.py` automatically. Run both after bulk content imports from Hermes.
+Run both after bulk content imports from the generation pipeline.
 
 ---
 
@@ -313,39 +306,12 @@ baseurl: ""          # empty for user/org root site
 
 ## Content pipeline
 
-This directory can be populated by the **Hermes** upstream generation pipeline (`../output/`). When importing generated posts:
+This directory can be populated by an upstream generation pipeline (`../output/`). When importing generated posts:
 
 1. Copy markdown files into `_posts/`
-2. Run `python3 scripts/generate-feed.py` (also strips legacy inline heading styles)
-3. Commit and push
-
-**Hermes must follow** [`docs/HERMES_ARTICLE_STYLE.md`](docs/HERMES_ARTICLE_STYLE.md) — especially: no inline CSS on headings, use `<h2 class="editorial-h2">` instead of markdown `##`, no embedded hero images.
-
----
-
-## Hermes agent (content generation)
-
-The Hermes agent writes draft articles outside this repo. To keep generated posts visually consistent with the editorial site:
-
-1. **Add the style guide to Hermes instructions** — point the agent at `docs/HERMES_ARTICLE_STYLE.md` or paste the [prompt snippet](docs/HERMES_ARTICLE_STYLE.md#hermes-prompt-snippet) into its system prompt.
-2. **Never generate inline styles** — old output used blue/purple boxed headings (`style="background:rgba(147,197,253,...); color:#ffffff"`). The current theme uses serif headings with hairline rules via CSS only.
-3. **Use HTML section headings** — `<h2 class="editorial-h2" id="kebab-id">Title</h2>`, not markdown `##`.
-4. **Run the import pipeline** after each batch:
-
-```bash
-python3 scripts/generate-feed.py
-```
-
-### Quick reference for Hermes
-
-| Do | Don't |
-|----|-------|
-| `<h2 class="editorial-h2" id="what-changed">What changed</h2>` | `style="..."` on any tag |
-| `<h3 class="editorial-h3" id="...">...</h3>` for sponsor sub-sections | Markdown `##` for main sections |
-| Front matter: `layout`, `title`, `date`, `source` | `![Featured image](...)` in body |
-| Plain markdown paragraphs and lists | `#` duplicate of title in body |
-
-See the full guide: [`docs/HERMES_ARTICLE_STYLE.md`](docs/HERMES_ARTICLE_STYLE.md)
+2. Run `python3 scripts/clean-post-headings.py`
+3. Run `python3 scripts/generate-feed.py`
+4. Commit and push
 
 ---
 
