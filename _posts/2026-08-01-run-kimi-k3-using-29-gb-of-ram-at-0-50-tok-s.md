@@ -4,6 +4,8 @@ title: "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s"
 date: 2026-08-01
 source: hackernews
 category: AI
+categories:
+  - AI
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s.html

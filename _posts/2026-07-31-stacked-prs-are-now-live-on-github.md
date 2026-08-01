@@ -4,6 +4,8 @@ title: "Stacked PRs are now live on GitHub"
 date: 2026-07-31
 source: hackernews
 category: Engineering
+categories:
+  - Engineering
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/stacked-prs-are-now-live-on-github.html

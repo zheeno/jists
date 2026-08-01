@@ -4,6 +4,8 @@ title: "DeepSeek-V4-Flash Update"
 date: 2026-07-31
 source: hackernews
 category: AI
+categories:
+  - AI
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/deepseek-v4-flash-update.html

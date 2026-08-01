@@ -4,6 +4,8 @@ title: "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio"
 date: 2026-08-01
 source: hackernews
 category: Hardware
+categories:
+  - Hardware
 author: Efezino Ukpowe
 readTime: 6 min read
 feedUrl: 2026/08/01/getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio.html

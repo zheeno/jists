@@ -78,5 +78,20 @@
     "imageUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80",
     "imageAlt": "Rows of illuminated servers in a data center aisle",
     "category": "AI"
+  },
+  "bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times": {
+    "imageUrl": "https://images.unsplash.com/photo-1611974789855-5c2a3a45248a?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Stock market chart displayed on a glowing monitor",
+    "category": "Finance"
+  },
+  "lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point": {
+    "imageUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "World map with strategic markers on a desk",
+    "category": "Geopolitics"
+  },
+  "neon-genesis-evangelion-is-coming-to-the-criterion-channel-in-september-complex": {
+    "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1600&q=80",
+    "imageAlt": "Cinematic light streaks in a dark theater",
+    "category": "Culture"
   }
 }

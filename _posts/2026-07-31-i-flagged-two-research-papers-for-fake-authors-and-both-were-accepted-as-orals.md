@@ -4,6 +4,8 @@ title: "I flagged two research papers for fake authors and both were accepted as
 date: 2026-07-31
 source: hackernews
 category: Research
+categories:
+  - Research
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/i-flagged-two-research-papers-for-fake-authors-and-both-were-accepted-as-orals.html

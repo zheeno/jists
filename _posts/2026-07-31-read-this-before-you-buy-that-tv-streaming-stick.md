@@ -4,6 +4,8 @@ title: "Read this before you buy that TV streaming stick"
 date: 2026-07-31
 source: hackernews
 category: Consumer Tech
+categories:
+  - Consumer Tech
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/read-this-before-you-buy-that-tv-streaming-stick.html

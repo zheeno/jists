@@ -1,0 +1,39 @@
+{% comment %}
+  Static article card for Liquid-rendered grids (categories page).
+  Usage: {% include post-card.html post=post %}
+{% endcomment %}
+{% assign topic = post.category | default: post.categories.first %}
+<li class="post-card--uniform topic-card">
+  {% if topic %}
+    {% include category-badge.html category=topic %}
+  {% endif %}
+
+  <a href="{{ post.url | relative_url }}" class="post-card fade-in" aria-label="{{ post.title }}">
+    {% if post.imageUrl %}
+      <div class="media-frame post-card-media">
+        <img
+          class="editorial-image post-card-image"
+          src="{{ post.imageUrl }}"
+          alt="{{ post.imageAlt | default: post.title }}"
+          data-editorial-image
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    {% endif %}
+
+    <div class="post-card-body">
+      <h3 class="post-card-title">{{ post.title }}</h3>
+      {% if post.excerpt %}
+        <p class="post-card-excerpt">{{ post.excerpt }}</p>
+      {% else %}
+        <p class="post-card-excerpt">{{ post.content | strip_html | truncate: 160 }}</p>
+      {% endif %}
+      <p class="post-card-meta">
+        {{ post.date | date: '%b %d, %Y' }}
+        {% if post.readTime %} · {{ post.readTime }}{% endif %}
+        {% if post.author %} · {{ post.author }}{% endif %}
+      </p>
+    </div>
+  </a>
+</li>

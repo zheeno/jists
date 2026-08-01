@@ -1,0 +1,11 @@
+{% comment %}
+  Renders a linked category badge.
+  Usage: {% include category-badge.html category=page.category %}
+{% endcomment %}
+{% if category %}
+  {% assign cat_slug = category | downcase | replace: ' & ', '-' | replace: ' ', '-' | replace: '&', '' | replace: '.', '' %}
+  <a
+    class="category-badge"
+    href="{{ '/categories.html' | relative_url }}#{{ cat_slug }}"
+  >{{ category }}</a>
+{% endif %}
