@@ -11,7 +11,7 @@ imageUrl: https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=form
 imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 ---
 
-# This Week's Top Trends
+<h2 class="editorial-h2" id="this-week-s-top-trends">This Week's Top Trends</h2>
 
 *Curated from Google Trends + Hacker News + Product Hunt — August 01, 2026*
 
