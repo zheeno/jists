@@ -4,6 +4,8 @@ title: "Elevators"
 date: 2026-08-01
 source: hackernews
 category: Infrastructure
+categories:
+  - Infrastructure
 author: Efezino Ukpowe
 readTime: 4 min read
 feedUrl: 2026/08/01/elevators.html

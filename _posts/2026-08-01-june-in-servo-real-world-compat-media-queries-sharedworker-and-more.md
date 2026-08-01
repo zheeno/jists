@@ -4,6 +4,8 @@ title: "June in Servo: real world compat, media queries, SharedWorker, and more"
 date: 2026-08-01
 source: hackernews
 category: Browsers
+categories:
+  - Browsers
 author: Efezino Ukpowe
 readTime: 5 min read
 feedUrl: 2026/08/01/june-in-servo-real-world-compat-media-queries-sharedworker-and-more.html

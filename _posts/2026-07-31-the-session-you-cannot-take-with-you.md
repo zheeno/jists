@@ -4,6 +4,8 @@ title: "The session you cannot take with you"
 date: 2026-07-31
 source: hackernews
 category: Security
+categories:
+  - Security
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/the-session-you-cannot-take-with-you.html

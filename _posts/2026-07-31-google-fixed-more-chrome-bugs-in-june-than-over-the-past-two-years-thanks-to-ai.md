@@ -4,6 +4,8 @@ title: "Google fixed more Chrome bugs in June than over the past two years, than
 date: 2026-07-31
 source: hackernews
 category: Browsers
+categories:
+  - Browsers
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai.html

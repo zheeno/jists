@@ -1,0 +1,66 @@
+---
+layout: default
+title: Topics
+description: Browse newsletter articles by topic — AI, engineering, culture, digest, and more.
+permalink: /categories.html
+---
+
+<div class="site-shell topics-page">
+  <header class="topics-masthead">
+    <p class="masthead-eyebrow">Browse</p>
+    <h1 class="topics-title">Topics</h1>
+    <p class="topics-dek">
+      Explore every issue by subject — from AI and engineering to culture and weekly digests.
+    </p>
+    <div class="topics-masthead-nav">
+      {% include site-nav.html %}
+    </div>
+  </header>
+
+  {% if site.categories.size > 0 %}
+    <div class="topics-layout">
+      <nav class="topics-jump-nav" aria-label="Jump to topic">
+        <p class="section-label">Jump to</p>
+        <ul class="topics-jump-list">
+          {% for category in site.categories %}
+            {% assign cat_slug = category | downcase | replace: ' & ', '-' | replace: ' ', '-' | replace: '&', '' | replace: '.', '' %}
+            <li>
+              <a href="#{{ cat_slug }}" class="topics-jump-link">{{ category }}</a>
+              <span class="topics-jump-count">{{ site.categories[category].size }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="topics-content">
+        {% for category in site.categories %}
+          {% assign cat_slug = category | downcase | replace: ' & ', '-' | replace: ' ', '-' | replace: '&', '' | replace: '.', '' %}
+          <section id="{{ cat_slug }}" class="topic-section" aria-labelledby="topic-{{ cat_slug }}">
+            <div class="topic-section-header">
+              <h2 id="topic-{{ cat_slug }}" class="topic-section-title">{{ category }}</h2>
+              <p class="topic-section-count">{{ site.categories[category].size }} articles</p>
+            </div>
+
+            <ul class="post-grid topic-grid">
+              {% assign sorted_posts = site.categories[category] | sort: 'date' | reverse %}
+              {% for post in sorted_posts %}
+                {% include post-card.html post=post %}
+              {% endfor %}
+            </ul>
+          </section>
+        {% endfor %}
+      </div>
+    </div>
+  {% else %}
+    <p class="topics-empty">No topics yet. Add <code>categories:</code> to post front matter.</p>
+  {% endif %}
+
+  {% include footer.html %}
+</div>
+
+<script src="{{ '/assets/feed-cards.js' | relative_url }}?v=2"></script>
+<script>
+  (function () {
+    if (window.EditorialImages) window.EditorialImages.init(document);
+  })();
+</script>

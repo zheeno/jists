@@ -4,6 +4,8 @@ title: "Progressive Web Components"
 date: 2026-08-01
 source: hackernews
 category: Web
+categories:
+  - Web
 author: Efezino Ukpowe
 readTime: 6 min read
 feedUrl: 2026/08/01/progressive-web-components.html

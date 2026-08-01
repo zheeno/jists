@@ -4,6 +4,8 @@ title: "Gemini Robotics 2 brings whole body intelligence to robots"
 date: 2026-07-31
 source: hackernews
 category: Robotics
+categories:
+  - Robotics
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/gemini-robotics-2-brings-whole-body-intelligence-to-robots.html

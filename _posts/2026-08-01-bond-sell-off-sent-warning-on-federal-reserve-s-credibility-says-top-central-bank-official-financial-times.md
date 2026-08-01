@@ -3,12 +3,14 @@ layout: post
 title: "Bond sell-off sent warning on Federal Reserve\u2019s credibility, says top central bank official - Financial Times"
 date: 2026-08-01
 source: google_news_finance
-category: Tech
+category: Finance
+categories:
+  - Finance
 author: Efezino Ukpowe
 readTime: 4 min read
 feedUrl: 2026/08/01/bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times.html
-imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Earth from orbit with city lights glowing at night"
+imageUrl: https://images.unsplash.com/photo-1611974789855-5c2a3a45248a?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Stock market chart displayed on a glowing monitor"
 ---
 
 In practice, **Bond sell-off sent warning on Federal Reserve’s credibility, says top central bank official - Financial Times** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.

@@ -4,6 +4,8 @@ title: "BMW Spider-Man in-car advertising"
 date: 2026-08-01
 source: hackernews
 category: Culture
+categories:
+  - Culture
 author: Efezino Ukpowe
 readTime: 5 min read
 feedUrl: 2026/08/01/bmw-spider-man-in-car-advertising.html

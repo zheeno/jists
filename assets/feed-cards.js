@@ -31,6 +31,28 @@
     });
   }
 
+  function categorySlug(name) {
+    return String(name || '')
+      .toLowerCase()
+      .replace(/ & /g, '-')
+      .replace(/\s+/g, '-')
+      .replace(/&/g, '')
+      .replace(/\./g, '')
+      .replace(/[^a-z0-9-]/g, '');
+  }
+
+  function categoriesPageUrl(category) {
+    return basePath() + 'categories.html#' + categorySlug(category);
+  }
+
+  function createCategoryBadge(category) {
+    const badge = document.createElement('a');
+    badge.className = 'category-badge';
+    badge.href = categoriesPageUrl(category);
+    badge.textContent = category;
+    return badge;
+  }
+
   function createImage(item, options) {
     const images = global.EditorialImages;
     const loading = options.loading || 'lazy';
@@ -75,10 +97,7 @@
     a.setAttribute('aria-label', item.title);
 
     if (item.category) {
-      const category = document.createElement('p');
-      category.className = 'post-card-category';
-      category.textContent = item.category;
-      a.appendChild(category);
+      li.appendChild(createCategoryBadge(item.category));
     }
 
     const media = document.createElement('div');
@@ -171,6 +190,9 @@
     basePath: basePath,
     normalizeUrl: normalizeUrl,
     formatDate: formatDate,
+    categorySlug: categorySlug,
+    categoriesPageUrl: categoriesPageUrl,
+    createCategoryBadge: createCategoryBadge,
     createCard: createCard,
     createSkeletonCard: createSkeletonCard,
     fetchFeed: fetchFeed,

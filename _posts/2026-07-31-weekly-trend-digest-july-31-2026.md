@@ -4,6 +4,8 @@ title: "Weekly Trend Digest - July 31, 2026"
 date: 2026-07-31
 source: newsletter
 category: Digest
+categories:
+  - Digest
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/weekly-trend-digest-july-31-2026.html
