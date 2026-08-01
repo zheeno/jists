@@ -6,6 +6,7 @@ source: hackernews
 category: Security
 author: Efezino Ukpowe
 readTime: 2 min read
+feedUrl: 2026/07/31/the-session-you-cannot-take-with-you.html
 imageUrl: https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Padlock resting on a laptop keyboard"
 ---

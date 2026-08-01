@@ -6,6 +6,7 @@ source: hackernews
 category: Research
 author: Efezino Ukpowe
 readTime: 2 min read
+feedUrl: 2026/07/31/i-flagged-two-research-papers-for-fake-authors-and-both-were-accepted-as-orals.html
 imageUrl: https://images.unsplash.com/photo-14565130808af995f60d6682?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Open academic books and research notes on a wooden desk"
 ---

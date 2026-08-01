@@ -6,6 +6,7 @@ source: hackernews
 category: Browsers
 author: Efezino Ukpowe
 readTime: 2 min read
+feedUrl: 2026/07/31/google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai.html
 imageUrl: https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Browser windows layered on a desktop workspace"
 ---

@@ -124,6 +124,7 @@ def serialize_front_matter(fm: dict[str, str]) -> str:
         "category",
         "author",
         "readTime",
+        "feedUrl",
         "imageUrl",
         "imageAlt",
         "description",
@@ -152,13 +153,14 @@ def serialize_front_matter(fm: dict[str, str]) -> str:
     return "\n".join(lines)
 
 
-def sync_post_file(md: Path, media: dict[str, str], fm: dict[str, str], body: str) -> None:
+def sync_post_file(md: Path, slug: str, media: dict[str, str], fm: dict[str, str], body: str) -> None:
     fm["layout"] = fm.get("layout", "post")
     fm["category"] = media["category"]
     fm["author"] = fm.get("author", AUTHOR)
     fm["imageUrl"] = media["imageUrl"]
     fm["imageAlt"] = media["imageAlt"]
     fm["readTime"] = estimate_read_time(body)
+    fm["feedUrl"] = slug_to_url(slug)
 
     cleaned_body = strip_embedded_featured_images(body)
     md.write_text(serialize_front_matter(fm) + "\n\n" + cleaned_body.lstrip("\n"), encoding="utf-8")
@@ -177,7 +179,7 @@ def main() -> None:
         source = fm.get("source", "newsletter")
         media = resolve_media(title_slug, source, index, library)
 
-        sync_post_file(md, media, fm, body)
+        sync_post_file(md, slug, media, fm, body)
 
         items.append(
             {

@@ -6,6 +6,7 @@ source: hackernews
 category: Browsers
 author: Efezino Ukpowe
 readTime: 5 min read
+feedUrl: 2026/08/01/june-in-servo-real-world-compat-media-queries-sharedworker-and-more.html
 imageUrl: https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Colorful code editor reflected on a laptop screen"
 ---

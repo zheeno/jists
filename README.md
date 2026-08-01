@@ -119,6 +119,14 @@ bundle exec jekyll serve
 
 Open [http://localhost:4000/jists/](http://localhost:4000/jists/) (note the `/jists` baseurl from `_config.yml`).
 
+### Homepage feed
+
+The landing page loads **6 articles initially** and appends more via a **Load More** button (`assets/main.js`). Card rendering is shared via `assets/feed-cards.js`.
+
+### Read Next (article pages)
+
+Article detail pages show up to **4 related posts** at the bottom (`assets/read-next.js`), excluding the current article and prioritizing the same category.
+
 ### Regenerate the post feed
 
 After adding or editing posts in `_posts/`:

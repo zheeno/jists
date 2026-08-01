@@ -6,6 +6,7 @@ source: hackernews
 category: Consumer Tech
 author: Efezino Ukpowe
 readTime: 2 min read
+feedUrl: 2026/07/31/read-this-before-you-buy-that-tv-streaming-stick.html
 imageUrl: https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Living room television glowing in a dimly lit space"
 ---
