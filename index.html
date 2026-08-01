@@ -32,6 +32,12 @@ layout: default
       </div>
 
       <ul id="posts" class="post-grid" aria-live="polite" aria-busy="true"></ul>
+
+      <div class="feed-actions">
+        <button id="load-more" type="button" class="load-more-button" hidden>
+          Load more
+        </button>
+      </div>
     </section>
 
     {% include subscribe.html %}
@@ -40,4 +46,5 @@ layout: default
   {% include footer.html %}
 </div>
 
-<script src="{{ '/assets/main.js' | relative_url }}?v=3"></script>
+<script src="{{ '/assets/feed-cards.js' | relative_url }}?v=1"></script>
+<script src="{{ '/assets/main.js' | relative_url }}?v=4"></script>

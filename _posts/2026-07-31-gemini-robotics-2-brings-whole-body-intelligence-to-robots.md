@@ -6,6 +6,7 @@ source: hackernews
 category: Robotics
 author: Efezino Ukpowe
 readTime: 2 min read
+feedUrl: 2026/07/31/gemini-robotics-2-brings-whole-body-intelligence-to-robots.html
 imageUrl: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Humanoid robot silhouette in a research lab"
 ---

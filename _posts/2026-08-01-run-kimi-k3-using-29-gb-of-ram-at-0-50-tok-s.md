@@ -6,6 +6,7 @@ source: hackernews
 category: AI
 author: Efezino Ukpowe
 readTime: 2 min read
+feedUrl: 2026/08/01/run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s.html
 imageUrl: https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Abstract visualization of neural network connections"
 ---

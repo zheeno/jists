@@ -50,7 +50,26 @@ layout: default
     <div class="editorial-content">{{ content }}</div>
   </div>
 
+  <section class="read-next" aria-labelledby="read-next-heading">
+    <div class="read-next-header">
+      <p class="section-label">Continue reading</p>
+      <h2 id="read-next-heading" class="read-next-title">Read next</h2>
+      <p class="read-next-dek">More from our editors — hand-picked stories to keep you informed.</p>
+    </div>
+    <ul
+      id="read-next-posts"
+      class="read-next-grid"
+      data-current-url="{{ page.feedUrl }}"
+      data-current-category="{{ page.category }}"
+      data-limit="4"
+      aria-live="polite"
+      aria-busy="true"
+    ></ul>
+  </section>
+
   {% include subscribe.html %}
   <p class="article-footer-tip">Tip: share one takeaway with a friend or team.</p>
   {% include footer.html %}
 </article>
+
+{% include article-scripts.html %}

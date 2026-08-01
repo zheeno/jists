@@ -6,6 +6,7 @@ source: hackernews
 category: Agents
 author: Efezino Ukpowe
 readTime: 6 min read
+feedUrl: 2026/08/01/qm-multiplayer-agent-harness-for-work.html
 imageUrl: https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Team collaborating around laptops in a bright studio"
 ---

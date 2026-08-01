@@ -6,6 +6,7 @@ source: hackernews
 category: Hardware
 author: Efezino Ukpowe
 readTime: 6 min read
+feedUrl: 2026/08/01/getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio.html
 imageUrl: https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Close-up of circuit board traces and connectors"
 ---
