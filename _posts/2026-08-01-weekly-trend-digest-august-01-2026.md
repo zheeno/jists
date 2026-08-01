@@ -9,8 +9,6 @@ categories:
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/weekly-trend-digest-august-01-2026.html
-imageUrl: https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 ---
 
 <h2 class="editorial-h2" id="this-week-s-top-trends">This Week's Top Trends</h2>
@@ -19,19 +17,19 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="1-lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point">1. Lieber Studies Indo-Pacific Volume – Prisoners of War and a Taiwan Conflict - Lieber Institute West Point</h2>
+<h2 class="editorial-h2" id="1-civil-war-in-sudan-global-conflict-tracker-council-on-foreign-relations">1. Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations</h2>
 
 **Source:** google_news_geopolitics — **Virality Score:** 75/100
 
-[Read full analysis →](https://news.google.com/rss/articles/CBMia0FVX3lxTFBWQ05FVEFoQTNqMHhVczNFclRFX2ZjaXF2bkExSnppRjlRbFowNFZxUlpvZVh5aVhIYmVVMGdtVW10dDVQeUhUUmhLTDRtNzR0RERWMkhNUmdBemV3TUkzOGNON3c4RGJBZTVN?oc=5)
+[Read full analysis →](https://news.google.com/rss/articles/CBMifkFVX3lxTE93b3VSei1NWTdlTUVhWjNaVGpKU2J1WVNZdlFEdFJsUnEzNEpZbXJZVXFyZ1JXcW1OOTdFZTJSbW1SRGZEQXR0U3ZuUkJOUG5ER0lyUHFqY09JWFVBVjVJSXVMM0RvMFp2ZnktdmIzaUFVaGF3UDE0U0daSElwUQ?oc=5)
 
 ---
 
-<h2 class="editorial-h2" id="2-bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times">2. Bond sell-off sent warning on Federal Reserve’s credibility, says top central bank official - Financial Times</h2>
+<h2 class="editorial-h2" id="2-a-divided-federal-reserve-holds-interest-rates-steady-despite-high-inflation-npr">2. A divided Federal Reserve holds interest rates steady despite high inflation - NPR</h2>
 
 **Source:** google_news_finance — **Virality Score:** 75/100
 
-[Read full analysis →](https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5)
+[Read full analysis →](https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXhqTkhuVFhZUVVRaFdXYXp2OTJ2TXJtVEFFNEp6YVFLbUZKS25KT2JDaGdCbjdGWnVqRVN6NVBfMjI5SEwwU2F1VDF0VndmYWE0U1JzQnRwMjJhZjFNWU1vbjJ2WjduQ1F3cFQ1TVBSQllFUVotX2R4MEw2UXBtTWF1eEdUYjRjc1pBSU9n?oc=5)
 
 ---
 

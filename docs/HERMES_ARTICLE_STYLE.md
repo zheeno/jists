@@ -34,7 +34,8 @@ source: hackernews
 | `date` | Yes | `YYYY-MM-DD` |
 | `source` | Yes | One of: `hackernews`, `newsletter`, `producthunt`, `googletrends`, `google_news_finance`, `google_news_geopolitics`, `google_news_popculture` |
 | `category` | Optional | Synced by `generate-feed.py` if omitted |
-| `imageUrl` / `imageAlt` | Optional | **Do not embed hero images in the body** — synced from `data/article-media.json` |
+| `sourceUrl` | Strongly recommended | Canonical URL of the original source article (used for Open Graph images) |
+| `imageUrl` / `imageAlt` | Optional | Prefer the source article's OG image. **Never use Unsplash/Picsum.** Synced by `scripts/resolve-source-images.py` + `generate-feed.py` |
 
 After import, the publishing pipeline runs:
 
@@ -161,7 +162,7 @@ For in-depth pieces, use descriptive section titles with the same HTML pattern:
 | Horizontal rules | `---` between digest entries only |
 | Code | `` `inline` `` or fenced blocks |
 | Blockquotes | `>` markdown syntax |
-| Images | **Do not include** — hero image comes from front matter |
+| Images | Prefer `sourceUrl` so the pipeline can fetch the source OG image. Do **not** use Unsplash/Picsum. Do not embed `![...]` heroes in the body. |
 
 ### Do not generate
 

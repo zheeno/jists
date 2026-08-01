@@ -9,8 +9,6 @@ categories:
 author: Efezino Ukpowe
 readTime: 6 min read
 feedUrl: 2026/08/01/bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times.html
-imageUrl: https://images.unsplash.com/photo-1611974789855-5c2a3a45248a?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Stock market chart displayed on a glowing monitor"
 ---
 
 The bond market just delivered a brutal wake-up call to the Federal Reserve, and one of the world's most influential central bankers is sounding the alarm. When government bonds—traditionally the safest investments on the planet—start hemorrhaging value while a central bank insists everything is under control, you know something fundamental has shifted in the financial universe.

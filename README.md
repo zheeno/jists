@@ -152,7 +152,14 @@ Each feed item powers the homepage article cards and includes:
 }
 ```
 
-Curated Unsplash image mappings live in `data/article-media.json` — the single source of truth for article media. Running `generate-feed.py` syncs those values into each post's front matter (`imageUrl`, `imageAlt`, `category`) and regenerates `feed.json`, so landing cards and article pages always match.
+Article images come from the **source article's Open Graph image**, not Unsplash. Run:
+
+```bash
+python3 scripts/resolve-source-images.py   # fetch OG images via sourceUrl / digests / HN
+python3 scripts/generate-feed.py           # sync front matter + rebuild feed.json
+```
+
+Mappings live in `data/article-media.json`. Stock Unsplash/Picsum URLs are ignored.
 
 ### Clean inline heading styles
 

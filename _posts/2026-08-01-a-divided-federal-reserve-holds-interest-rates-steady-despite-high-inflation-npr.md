@@ -1,20 +1,17 @@
 ---
 layout: post
-title: "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s"
+title: "A divided Federal Reserve holds interest rates steady despite high inflation - NPR"
 date: 2026-08-01
-source: hackernews
-sourceUrl: https://github.com/sqliteai/waste
-category: AI
+source: google_news_finance
+category: Tech
 categories:
-  - AI
+  - Tech
 author: Efezino Ukpowe
 readTime: 2 min read
-feedUrl: 2026/08/01/run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s.html
-imageUrl: https://opengraph.githubassets.com/fa59458d68d1620fd51225190a6d1b18160d79e188220805a2ba5ef2934334e6/sqliteai/waste
-imageAlt: "Abstract visualization of neural network connections"
+feedUrl: 2026/08/01/a-divided-federal-reserve-holds-interest-rates-steady-despite-high-inflation-npr.html
 ---
 
-In practice, **Run Kimi K3 using 29 GB of RAM at 0.50 tok/s** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
+In practice, **A divided Federal Reserve holds interest rates steady despite high inflation - NPR** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 
 But trends only feel “obvious” after the first wave of adoption. Before that, teams usually miss the tradeoffs.
 
@@ -53,8 +50,9 @@ The biggest risk isn’t that the trend “goes away.” It’s that you adopt i
 Want your product/service featured in my newsletter? I include one sponsor section per issue when it fits the editorial topic—always contextual, always transparent.
 
 <h3 class="editorial-h3" id="suggested-fit-for-this-issue">Suggested fit for this issue</h3>
-- Newsletter & Creator Tools
-- SEO & Growth
+- Market Data & Analytics
+- Accounting & Reporting
+- Personal Finance & Budgeting
 - Privacy & Security Tools
 
 **Disclosure:** I only feature sponsors that genuinely fit the editorial topic.

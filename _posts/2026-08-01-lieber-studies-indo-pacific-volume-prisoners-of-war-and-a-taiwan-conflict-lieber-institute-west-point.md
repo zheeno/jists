@@ -3,13 +3,14 @@ layout: post
 title: "Lieber Studies Indo-Pacific Volume \u2013 Prisoners of War and a Taiwan Conflict - Lieber Institute West Point"
 date: 2026-08-01
 source: google_news_geopolitics
+sourceUrl: https://lieber.westpoint.edu/
 category: Geopolitics
 categories:
   - Geopolitics
 author: Efezino Ukpowe
 readTime: 5 min read
 feedUrl: 2026/08/01/lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point.html
-imageUrl: https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://lieber.westpoint.edu/wp-content/uploads/2020/03/lieber-seal-final.png
 imageAlt: "World map with strategic markers on a desk"
 ---
 

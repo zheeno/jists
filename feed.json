@@ -10,8 +10,8 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "Curated from Google Trends + Hacker News + Product Hunt \u2014 August 01, 2026",
-      "imageUrl": "https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Folded newspapers stacked on a desk in soft morning light"
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "title": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
@@ -23,8 +23,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, Run Kimi K3 using 29 GB of RAM at 0.50 tok/s matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Abstract visualization of neural network connections"
+      "imageUrl": "https://opengraph.githubassets.com/fa59458d68d1620fd51225190a6d1b18160d79e188220805a2ba5ef2934334e6/sqliteai/waste",
+      "imageAlt": "Abstract visualization of neural network connections",
+      "sourceUrl": "https://github.com/sqliteai/waste"
     },
     {
       "title": "qm \\u2013 Multiplayer agent harness for work",
@@ -34,10 +35,11 @@
       "category": "Agents",
       "categorySlug": "agents",
       "author": "Efezino Ukpowe",
-      "readTime": "6 min read",
-      "excerpt": "Imagine your entire team working seamlessly with AI agents that don't just assist\u2014they collaborate, learn, and evolve together in real-time. What sounds like science fiction is no\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Team collaborating around laptops in a bright studio"
+      "readTime": "2 min read",
+      "excerpt": "In practice, qm \u2013 Multiplayer agent harness for work matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
+      "imageUrl": "https://opengraph.githubassets.com/4d5583673ffff5c7a2ec83256e2a2e968f0d02e956bffe013ee8151f3f437d73/yc-software/qm",
+      "imageAlt": "Team collaborating around laptops in a bright studio",
+      "sourceUrl": "https://github.com/yc-software/qm"
     },
     {
       "title": "Progressive Web Components",
@@ -49,8 +51,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "6 min read",
       "excerpt": "Imagine building a web application where your components work seamlessly across any framework, load instantly, and provide native app-like experiences\u2014all while using standard web\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Developer workstation with code on a dark monitor"
+      "imageUrl": "https://arielsalminen.com/img/social/2026-progressive-web-components-preview.jpeg",
+      "imageAlt": "Developer workstation with code on a dark monitor",
+      "sourceUrl": "https://arielsalminen.com/2026/progressive-web-components/"
     },
     {
       "title": "\\u2018Neon Genesis Evangelion\\u2019 Is Coming to the Criterion Channel in September - Complex",
@@ -60,10 +63,11 @@
       "category": "Culture",
       "categorySlug": "culture",
       "author": "Efezino Ukpowe",
-      "readTime": "5 min read",
-      "excerpt": "The most psychologically complex anime series ever made is about to get the prestige treatment it deserves. Neon Genesis Evangelion, the 1995 masterpiece that redefined both mecha\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Cinematic light streaks in a dark theater"
+      "readTime": "2 min read",
+      "excerpt": "In practice, \u2018Neon Genesis Evangelion\u2019 Is Coming to the Criterion Channel in September - Complex matters because it changes what you can ship\u2014faster, with fewer failure modes, or\u2026",
+      "imageUrl": "https://images.complex.com/complex/image/upload/ar_1.91,c_fill,g_auto,q_auto/v1580336825/complex-og",
+      "imageAlt": "Cinematic light streaks in a dark theater",
+      "sourceUrl": "https://www.complex.com/"
     },
     {
       "title": "Lieber Studies Indo-Pacific Volume \\u2013 Prisoners of War and a Taiwan Conflict - Lieber Institute West Point",
@@ -75,8 +79,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "5 min read",
       "excerpt": "What happens to captured soldiers when the world's two largest militaries clash over a democratic island of 23 million people? The Lieber Institute at West Point has just released\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "World map with strategic markers on a desk"
+      "imageUrl": "https://lieber.westpoint.edu/wp-content/uploads/2020/03/lieber-seal-final.png",
+      "imageAlt": "World map with strategic markers on a desk",
+      "sourceUrl": "https://lieber.westpoint.edu/"
     },
     {
       "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
@@ -88,8 +93,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "5 min read",
       "excerpt": "Servo just shipped a game-changing update that brings real-world website compatibility closer than ever before. After years of development as Mozilla's experimental browser engine\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Colorful code editor reflected on a laptop screen"
+      "imageUrl": "https://servo.org/svg/servo-color-positive.svg",
+      "imageAlt": "Colorful code editor reflected on a laptop screen",
+      "sourceUrl": "https://servo.org/blog/2026/07/31/june-in-servo/"
     },
     {
       "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
@@ -101,8 +107,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, Google fixed more Chrome bugs in June than over the past two years, thanks to AI matters because it changes what you can ship\u2014faster, with fewer failure modes, or wit\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Browser windows layered on a desktop workspace"
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-07-17_at_5.00.43PM.width-1300.png",
+      "imageAlt": "Browser windows layered on a desktop workspace",
+      "sourceUrl": "https://blog.google/security/chrome-stronger-with-every-update/"
     },
     {
       "title": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
@@ -114,8 +121,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "6 min read",
       "excerpt": "When I first saw my Mac Studio's network transfer speeds hit 25 Gbps, I literally did a double-take at my Activity Monitor. After years of being bottlenecked by gigabit Ethernet,\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Close-up of circuit board traces and connectors"
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/"
     },
     {
       "title": "Elevators",
@@ -125,10 +133,25 @@
       "category": "Infrastructure",
       "categorySlug": "infrastructure",
       "author": "Efezino Ukpowe",
-      "readTime": "5 min read",
-      "excerpt": "What if I told you that the humble elevator\u2014that box you barely think about as it whisks you between floors\u2014is quietly orchestrating one of the most significant transformations in\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Glass elevator shafts rising through a modern atrium"
+      "readTime": "2 min read",
+      "excerpt": "In practice, Elevators matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
+      "imageUrl": "https://john.fun/metadata/elevator/twitter-card.png",
+      "imageAlt": "Glass elevator shafts rising through a modern atrium",
+      "sourceUrl": "https://john.fun/elevators"
+    },
+    {
+      "title": "Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations",
+      "url": "2026/08/01/civil-war-in-sudan-global-conflict-tracker-council-on-foreign-relations.html",
+      "date": "2026-08-01",
+      "source": "google_news_geopolitics",
+      "category": "Tech",
+      "categorySlug": "tech",
+      "author": "Efezino Ukpowe",
+      "readTime": "2 min read",
+      "excerpt": "In practice, Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations matters because it changes what you can ship\u2014faster, with fewer failure modes, or with bet\u2026",
+      "imageUrl": "https://assets.cfr.org/images/t_og_image_landscape/v1755542364/globalconflicttracker/Civil-War-in-Sudan/Civil-War-in-Sudan.jpg?_i=AA",
+      "imageAlt": "Image from source: Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations",
+      "sourceUrl": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
     },
     {
       "title": "Bond sell-off sent warning on Federal Reserve\\u2019s credibility, says top central bank official - Financial Times",
@@ -140,8 +163,8 @@
       "author": "Efezino Ukpowe",
       "readTime": "6 min read",
       "excerpt": "The bond market just delivered a brutal wake-up call to the Federal Reserve, and one of the world's most influential central bankers is sounding the alarm. When government bonds\u2014t\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1611974789855-5c2a3a45248a?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Stock market chart displayed on a glowing monitor"
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "title": "BMW Spider-Man in-car advertising",
@@ -153,8 +176,22 @@
       "author": "Efezino Ukpowe",
       "readTime": "5 min read",
       "excerpt": "Picture this: you're driving your BMW when suddenly Spider-Man's web appears on your dashboard screen, and the friendly neighborhood superhero starts chatting with you about your\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Sleek sports car dashboard illuminated at dusk"
+      "imageUrl": "https://consumerrights.wiki/images/logo/new_fixed_logo.png",
+      "imageAlt": "Sleek sports car dashboard illuminated at dusk",
+      "sourceUrl": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising"
+    },
+    {
+      "title": "A divided Federal Reserve holds interest rates steady despite high inflation - NPR",
+      "url": "2026/08/01/a-divided-federal-reserve-holds-interest-rates-steady-despite-high-inflation-npr.html",
+      "date": "2026-08-01",
+      "source": "google_news_finance",
+      "category": "Tech",
+      "categorySlug": "tech",
+      "author": "Efezino Ukpowe",
+      "readTime": "2 min read",
+      "excerpt": "In practice, A divided Federal Reserve holds interest rates steady despite high inflation - NPR matters because it changes what you can ship\u2014faster, with fewer failure modes, or w\u2026",
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "title": "Weekly Trend Digest - July 31, 2026",
@@ -166,8 +203,8 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "Curated from Google Trends + Hacker News + Product Hunt \u2014 July 31, 2026",
-      "imageUrl": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Person reading a newspaper at a cafe table"
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "title": "The session you cannot take with you",
@@ -179,8 +216,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, The session you cannot take with you matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
-      "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Padlock resting on a laptop keyboard"
+      "imageUrl": "https://earendil.com/static/og/posts/session-portability.png",
+      "imageAlt": "Padlock resting on a laptop keyboard",
+      "sourceUrl": "https://earendil.com/posts/session-portability/"
     },
     {
       "title": "Stacked PRs are now live on GitHub",
@@ -192,8 +230,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, Stacked PRs are now live on GitHub matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
-      "imageUrl": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Git branching diagram sketched on a notebook page"
+      "imageUrl": "https://github.blog/wp-content/uploads/2026/07/Changelog-Stacks-NewRelease-Unfurl.png",
+      "imageAlt": "Git branching diagram sketched on a notebook page",
+      "sourceUrl": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/"
     },
     {
       "title": "Read this before you buy that TV streaming stick",
@@ -205,8 +244,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, Read this before you buy that TV streaming stick matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
-      "imageUrl": "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Living room television glowing in a dimly lit space"
+      "imageUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png",
+      "imageAlt": "Living room television glowing in a dimly lit space",
+      "sourceUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
     },
     {
       "title": "I flagged two research papers for fake authors and both were accepted as orals",
@@ -218,8 +258,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, I flagged two research papers for fake authors and both were accepted as orals matters because it changes what you can ship\u2014faster, with fewer failure modes, or with\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-14565130808af995f60d6682?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Open academic books and research notes on a wooden desk"
+      "imageUrl": "",
+      "imageAlt": "",
+      "sourceUrl": "https://geospatialml.com/posts/reviewing-ai-slop/"
     },
     {
       "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
@@ -231,8 +272,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, Google fixed more Chrome bugs in June than over the past two years, thanks to AI matters because it changes what you can ship\u2014faster, with fewer failure modes, or wit\u2026",
-      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Browser windows layered on a desktop workspace"
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-07-17_at_5.00.43PM.width-1300.png",
+      "imageAlt": "Browser windows layered on a desktop workspace",
+      "sourceUrl": "https://blog.google/security/chrome-stronger-with-every-update/"
     },
     {
       "title": "Gemini Robotics 2 brings whole body intelligence to robots",
@@ -244,8 +286,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, Gemini Robotics 2 brings whole body intelligence to robots matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
-      "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Humanoid robot silhouette in a research lab"
+      "imageUrl": "https://lh3.googleusercontent.com/VZ5KwQMxv9xBcQnYipsQB2EUj3oX1yvFYLktIamY8V2a76Y6ctEEuaLF59TuPdnaVn6OAMINDilqnuhju1O-AXc7QlOVmcogjskrWxS7xVQ1mc5S7g=w1200-h630-n-nu-rw",
+      "imageAlt": "Humanoid robot silhouette in a research lab",
+      "sourceUrl": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
     },
     {
       "title": "DeepSeek-V4-Flash Update",
@@ -257,8 +300,9 @@
       "author": "Efezino Ukpowe",
       "readTime": "2 min read",
       "excerpt": "In practice, DeepSeek-V4-Flash Update matters because it changes what you can ship\u2014faster, with fewer failure modes, or with better economics.",
-      "imageUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80",
-      "imageAlt": "Rows of illuminated servers in a data center aisle"
+      "imageUrl": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
+      "imageAlt": "Rows of illuminated servers in a data center aisle",
+      "sourceUrl": "https://api-docs.deepseek.com/updates/"
     }
   ]
 }

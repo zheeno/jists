@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s"
+title: "Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations"
 date: 2026-08-01
-source: hackernews
-sourceUrl: https://github.com/sqliteai/waste
-category: AI
+source: google_news_geopolitics
+sourceUrl: https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan
+category: Tech
 categories:
-  - AI
+  - Tech
 author: Efezino Ukpowe
 readTime: 2 min read
-feedUrl: 2026/08/01/run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s.html
-imageUrl: https://opengraph.githubassets.com/fa59458d68d1620fd51225190a6d1b18160d79e188220805a2ba5ef2934334e6/sqliteai/waste
-imageAlt: "Abstract visualization of neural network connections"
+feedUrl: 2026/08/01/civil-war-in-sudan-global-conflict-tracker-council-on-foreign-relations.html
+imageUrl: https://assets.cfr.org/images/t_og_image_landscape/v1755542364/globalconflicttracker/Civil-War-in-Sudan/Civil-War-in-Sudan.jpg?_i=AA
+imageAlt: "Image from source: Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations"
 ---
 
-In practice, **Run Kimi K3 using 29 GB of RAM at 0.50 tok/s** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
+In practice, **Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
 
 But trends only feel “obvious” after the first wave of adoption. Before that, teams usually miss the tradeoffs.
 
@@ -53,9 +53,9 @@ The biggest risk isn’t that the trend “goes away.” It’s that you adopt i
 Want your product/service featured in my newsletter? I include one sponsor section per issue when it fits the editorial topic—always contextual, always transparent.
 
 <h3 class="editorial-h3" id="suggested-fit-for-this-issue">Suggested fit for this issue</h3>
-- Newsletter & Creator Tools
-- SEO & Growth
-- Privacy & Security Tools
+- Policy & Geopolitics Briefing
+- Risk & Compliance Tools
+- International Business Insights
 
 **Disclosure:** I only feature sponsors that genuinely fit the editorial topic.
 
