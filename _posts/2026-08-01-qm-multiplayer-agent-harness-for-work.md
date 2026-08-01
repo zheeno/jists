@@ -3,11 +3,14 @@ layout: post
 title: "qm \u2013 Multiplayer agent harness for work"
 date: 2026-08-01
 source: hackernews
+sourceUrl: https://github.com/yc-software/qm
 category: Agents
+categories:
+  - Agents
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/qm-multiplayer-agent-harness-for-work.html
-imageUrl: https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://opengraph.githubassets.com/4d5583673ffff5c7a2ec83256e2a2e968f0d02e956bffe013ee8151f3f437d73/yc-software/qm
 imageAlt: "Team collaborating around laptops in a bright studio"
 ---
 

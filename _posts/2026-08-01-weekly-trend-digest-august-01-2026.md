@@ -4,11 +4,11 @@ title: "Weekly Trend Digest - August 01, 2026"
 date: 2026-08-01
 source: newsletter
 category: Digest
+categories:
+  - Digest
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/weekly-trend-digest-august-01-2026.html
-imageUrl: https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 ---
 
 <h2 class="editorial-h2" id="this-week-s-top-trends">This Week's Top Trends</h2>

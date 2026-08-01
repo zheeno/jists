@@ -3,13 +3,14 @@ layout: post
 title: "Progressive Web Components"
 date: 2026-08-01
 source: hackernews
+sourceUrl: https://arielsalminen.com/2026/progressive-web-components/
 category: Web
 categories:
   - Web
 author: Efezino Ukpowe
 readTime: 6 min read
 feedUrl: 2026/08/01/progressive-web-components.html
-imageUrl: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://arielsalminen.com/img/social/2026-progressive-web-components-preview.jpeg
 imageAlt: "Developer workstation with code on a dark monitor"
 ---
 

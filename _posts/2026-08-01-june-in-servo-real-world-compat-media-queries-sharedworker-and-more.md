@@ -3,13 +3,14 @@ layout: post
 title: "June in Servo: real world compat, media queries, SharedWorker, and more"
 date: 2026-08-01
 source: hackernews
+sourceUrl: https://servo.org/blog/2026/07/31/june-in-servo/
 category: Browsers
 categories:
   - Browsers
 author: Efezino Ukpowe
 readTime: 5 min read
 feedUrl: 2026/08/01/june-in-servo-real-world-compat-media-queries-sharedworker-and-more.html
-imageUrl: https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://servo.org/svg/servo-color-positive.svg
 imageAlt: "Colorful code editor reflected on a laptop screen"
 ---
 

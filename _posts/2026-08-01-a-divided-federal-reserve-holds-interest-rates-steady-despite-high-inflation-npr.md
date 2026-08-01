@@ -4,11 +4,11 @@ title: "A divided Federal Reserve holds interest rates steady despite high infla
 date: 2026-08-01
 source: google_news_finance
 category: Tech
+categories:
+  - Tech
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/a-divided-federal-reserve-holds-interest-rates-steady-despite-high-inflation-npr.html
-imageUrl: https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Earth from orbit with city lights glowing at night"
 ---
 
 In practice, **A divided Federal Reserve holds interest rates steady despite high inflation - NPR** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.

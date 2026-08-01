@@ -3,13 +3,14 @@ layout: post
 title: "DeepSeek-V4-Flash Update"
 date: 2026-07-31
 source: hackernews
+sourceUrl: https://api-docs.deepseek.com/updates/
 category: AI
 categories:
   - AI
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/deepseek-v4-flash-update.html
-imageUrl: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://api-docs.deepseek.com/img/deepseek-social-card.jpeg
 imageAlt: "Rows of illuminated servers in a data center aisle"
 ---
 

@@ -3,12 +3,15 @@ layout: post
 title: "\u2018Neon Genesis Evangelion\u2019 Is Coming to the Criterion Channel in September - Complex"
 date: 2026-08-01
 source: google_news_popculture
-category: Tech
+sourceUrl: https://www.complex.com/
+category: Culture
+categories:
+  - Culture
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/neon-genesis-evangelion-is-coming-to-the-criterion-channel-in-september-complex.html
-imageUrl: https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Laptop with code on a sunlit desk"
+imageUrl: https://images.complex.com/complex/image/upload/ar_1.91,c_fill,g_auto,q_auto/v1580336825/complex-og
+imageAlt: "Cinematic light streaks in a dark theater"
 ---
 
 In practice, **‘Neon Genesis Evangelion’ Is Coming to the Criterion Channel in September - Complex** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.

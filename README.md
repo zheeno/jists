@@ -57,6 +57,7 @@ The site uses a **typography-first editorial design**: serif headlines, clean sa
 │   └── logo.svg
 ├── scripts/
 │   ├── generate-feed.py     # Regenerate feed.json from _posts
+│   ├── resolve-source-images.py  # Fetch source-article OG images
 │   └── clean-post-headings.py
 ├── .github/workflows/
 │   └── pages.yml            # CI/CD: build Jekyll → deploy Pages
@@ -152,7 +153,14 @@ Each feed item powers the homepage article cards and includes:
 }
 ```
 
-Curated Unsplash image mappings live in `data/article-media.json` — the single source of truth for article media. Running `generate-feed.py` syncs those values into each post's front matter (`imageUrl`, `imageAlt`, `category`) and regenerates `feed.json`, so landing cards and article pages always match.
+Article images come from the **source article's Open Graph image**, not Unsplash. Run:
+
+```bash
+python3 scripts/resolve-source-images.py   # fetch OG images via sourceUrl / digests / HN
+python3 scripts/generate-feed.py           # sync front matter + rebuild feed.json
+```
+
+Mappings live in `data/article-media.json`. Stock Unsplash/Picsum URLs are ignored.
 
 ### Clean inline heading styles
 
@@ -267,10 +275,11 @@ To use a custom domain, add a `CNAME` file and update `_config.yml` `url` and `b
 
 | Script | Purpose |
 |--------|---------|
-| `scripts/generate-feed.py` | Build `feed.json` from all `_posts/*.md` files |
+| `scripts/resolve-source-images.py` | Resolve `sourceUrl` and fetch Open Graph images into `data/article-media.json` |
+| `scripts/generate-feed.py` | Build full `feed.json` from all `_posts/*.md` files (never hand-edit feed.json) |
 | `scripts/clean-post-headings.py` | Strip inline `style=""` from generated heading tags |
 
-Run both after bulk content imports from the generation pipeline.
+Run `resolve-source-images.py` then `generate-feed.py` after bulk Hermes imports.
 
 ---
 

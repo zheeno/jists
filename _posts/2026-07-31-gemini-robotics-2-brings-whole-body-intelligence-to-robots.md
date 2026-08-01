@@ -3,13 +3,14 @@ layout: post
 title: "Gemini Robotics 2 brings whole body intelligence to robots"
 date: 2026-07-31
 source: hackernews
+sourceUrl: https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/
 category: Robotics
 categories:
   - Robotics
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/gemini-robotics-2-brings-whole-body-intelligence-to-robots.html
-imageUrl: https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://lh3.googleusercontent.com/VZ5KwQMxv9xBcQnYipsQB2EUj3oX1yvFYLktIamY8V2a76Y6ctEEuaLF59TuPdnaVn6OAMINDilqnuhju1O-AXc7QlOVmcogjskrWxS7xVQ1mc5S7g=w1200-h630-n-nu-rw
 imageAlt: "Humanoid robot silhouette in a research lab"
 ---
 

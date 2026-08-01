@@ -3,13 +3,14 @@ layout: post
 title: "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s"
 date: 2026-08-01
 source: hackernews
+sourceUrl: https://github.com/sqliteai/waste
 category: AI
 categories:
   - AI
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/01/run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s.html
-imageUrl: https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://opengraph.githubassets.com/fa59458d68d1620fd51225190a6d1b18160d79e188220805a2ba5ef2934334e6/sqliteai/waste
 imageAlt: "Abstract visualization of neural network connections"
 ---
 

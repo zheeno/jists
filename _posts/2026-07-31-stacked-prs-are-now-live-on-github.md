@@ -3,13 +3,14 @@ layout: post
 title: "Stacked PRs are now live on GitHub"
 date: 2026-07-31
 source: hackernews
+sourceUrl: https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/
 category: Engineering
 categories:
   - Engineering
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/07/31/stacked-prs-are-now-live-on-github.html
-imageUrl: https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=1600&q=80
+imageUrl: https://github.blog/wp-content/uploads/2026/07/Changelog-Stacks-NewRelease-Unfurl.png
 imageAlt: "Git branching diagram sketched on a notebook page"
 ---
 
