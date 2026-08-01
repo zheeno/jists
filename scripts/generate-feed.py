@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 import math
 import re
+import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -178,6 +180,11 @@ def sync_post_file(md: Path, slug: str, media: dict[str, str], fm: dict[str, str
 
 
 def main() -> None:
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "clean-post-headings.py")],
+        check=True,
+    )
+
     library = load_media_library()
     items = []
     posts = sorted(POSTS_DIR.glob("*.md"), reverse=True)

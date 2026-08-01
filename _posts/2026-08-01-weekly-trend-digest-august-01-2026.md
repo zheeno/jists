@@ -7,7 +7,7 @@ category: Digest
 categories:
   - Digest
 author: Efezino Ukpowe
-readTime: 4 min read
+readTime: 2 min read
 feedUrl: 2026/08/01/weekly-trend-digest-august-01-2026.html
 imageUrl: https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Folded newspapers stacked on a desk in soft morning light"
@@ -19,7 +19,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="1-lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">1. Lieber Studies Indo-Pacific Volume – Prisoners of War and a Taiwan Conflict - Lieber Institute West Point</h2>
+<h2 class="editorial-h2" id="1-lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point">1. Lieber Studies Indo-Pacific Volume – Prisoners of War and a Taiwan Conflict - Lieber Institute West Point</h2>
 
 **Source:** google_news_geopolitics — **Virality Score:** 75/100
 
@@ -27,7 +27,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="2-bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">2. Bond sell-off sent warning on Federal Reserve’s credibility, says top central bank official - Financial Times</h2>
+<h2 class="editorial-h2" id="2-bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times">2. Bond sell-off sent warning on Federal Reserve’s credibility, says top central bank official - Financial Times</h2>
 
 **Source:** google_news_finance — **Virality Score:** 75/100
 
@@ -35,7 +35,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="3-neon-genesis-evangelion-is-coming-to-the-criterion-channel-in-september-complex" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">3. ‘Neon Genesis Evangelion’ Is Coming to the Criterion Channel in September - Complex</h2>
+<h2 class="editorial-h2" id="3-neon-genesis-evangelion-is-coming-to-the-criterion-channel-in-september-complex">3. ‘Neon Genesis Evangelion’ Is Coming to the Criterion Channel in September - Complex</h2>
 
 **Source:** google_news_popculture — **Virality Score:** 75/100
 
@@ -43,7 +43,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="4-elevators" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">4. Elevators</h2>
+<h2 class="editorial-h2" id="4-elevators">4. Elevators</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -51,7 +51,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="5-qm-multiplayer-agent-harness-for-work" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">5. qm – Multiplayer agent harness for work</h2>
+<h2 class="editorial-h2" id="5-qm-multiplayer-agent-harness-for-work">5. qm – Multiplayer agent harness for work</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -59,7 +59,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="6-google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">6. Google fixed more Chrome bugs in June than over the past two years, thanks to AI</h2>
+<h2 class="editorial-h2" id="6-google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai">6. Google fixed more Chrome bugs in June than over the past two years, thanks to AI</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -73,7 +73,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Sponsor Spotlight (Paid Partnership)</h2>
+<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership">Sponsor Spotlight (Paid Partnership)</h2>
 
 Brands aligned with the week’s topics can request a contextual sponsor section.
 
