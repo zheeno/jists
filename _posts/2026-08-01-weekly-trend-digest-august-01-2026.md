@@ -29,15 +29,7 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="3-run-kimi-k3-using-29-gb-of-ram-at-0-50-tok-s" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">3. Run Kimi K3 using 29 GB of RAM at 0.50 tok/s</h2>
-
-**Source:** hackernews — **Virality Score:** 84/100
-
-[Read full analysis →](https://github.com/sqliteai/waste)
-
----
-
-<h2 class="editorial-h2" id="4-getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">4. Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio</h2>
+<h2 class="editorial-h2" id="3-getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">3. Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio</h2>
 
 **Source:** hackernews — **Virality Score:** 78/100
 
@@ -45,19 +37,27 @@ source: "newsletter"
 
 ---
 
-<h2 class="editorial-h2" id="5-bmw-spider-man-in-car-advertising" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">5. BMW Spider-Man in-car advertising</h2>
+<h2 class="editorial-h2" id="4-bmw-spider-man-in-car-advertising" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">4. BMW Spider-Man in-car advertising</h2>
 
-**Source:** hackernews — **Virality Score:** 72/100
+**Source:** hackernews — **Virality Score:** 73/100
 
 [Read full analysis →](https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising)
 
 ---
 
-<h2 class="editorial-h2" id="6-progressive-web-components" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">6. Progressive Web Components</h2>
+<h2 class="editorial-h2" id="5-progressive-web-components" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">5. Progressive Web Components</h2>
 
 **Source:** hackernews — **Virality Score:** 70/100
 
 [Read full analysis →](https://arielsalminen.com/2026/progressive-web-components/)
+
+---
+
+<h2 class="editorial-h2" id="6-june-in-servo-real-world-compat-media-queries-sharedworker-and-more" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">6. June in Servo: real world compat, media queries, SharedWorker, and more</h2>
+
+**Source:** hackernews — **Virality Score:** 70/100
+
+[Read full analysis →](https://servo.org/blog/2026/07/31/june-in-servo/)
 
 ---
 
