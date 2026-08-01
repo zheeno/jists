@@ -5,7 +5,7 @@ date: 2026-08-01
 source: newsletter
 category: Digest
 author: Efezino Ukpowe
-readTime: 2 min read
+readTime: 4 min read
 feedUrl: 2026/08/01/weekly-trend-digest-august-01-2026.html
 imageUrl: https://images.unsplash.com/photo-1504711335565-9b121ff2c7f8?auto=format&fit=crop&w=1600&q=80
 imageAlt: "Folded newspapers stacked on a desk in soft morning light"
@@ -17,7 +17,31 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="1-elevators">1. Elevators</h2>
+<h2 class="editorial-h2" id="1-lieber-studies-indo-pacific-volume-prisoners-of-war-and-a-taiwan-conflict-lieber-institute-west-point" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">1. Lieber Studies Indo-Pacific Volume – Prisoners of War and a Taiwan Conflict - Lieber Institute West Point</h2>
+
+**Source:** google_news_geopolitics — **Virality Score:** 75/100
+
+[Read full analysis →](https://news.google.com/rss/articles/CBMia0FVX3lxTFBWQ05FVEFoQTNqMHhVczNFclRFX2ZjaXF2bkExSnppRjlRbFowNFZxUlpvZVh5aVhIYmVVMGdtVW10dDVQeUhUUmhLTDRtNzR0RERWMkhNUmdBemV3TUkzOGNON3c4RGJBZTVN?oc=5)
+
+---
+
+<h2 class="editorial-h2" id="2-bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">2. Bond sell-off sent warning on Federal Reserve’s credibility, says top central bank official - Financial Times</h2>
+
+**Source:** google_news_finance — **Virality Score:** 75/100
+
+[Read full analysis →](https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5)
+
+---
+
+<h2 class="editorial-h2" id="3-neon-genesis-evangelion-is-coming-to-the-criterion-channel-in-september-complex" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">3. ‘Neon Genesis Evangelion’ Is Coming to the Criterion Channel in September - Complex</h2>
+
+**Source:** google_news_popculture — **Virality Score:** 75/100
+
+[Read full analysis →](https://news.google.com/rss/articles/CBMiogFBVV95cUxNRmMzYUp5cGotTURzdDI3NlRmM1pVSVB4S1B4SUFyRmlOVFc3X2Z4aUJzM1psa0REMGxFUEszb0JLNUE3U2YtQXVyYk1MMWxwOGdpWEEwU0FGVGdUR2kxbk16Y1dMUXVCek9UaGRwVFVqMFRsOG5OZkltbWpVWkhkWlE4OXpPZmZBRTQxZ1ZKSXBaVmVHcmNZYThBWThTQ29sVGc?oc=5)
+
+---
+
+<h2 class="editorial-h2" id="4-elevators" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">4. Elevators</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -25,7 +49,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="2-qm-multiplayer-agent-harness-for-work">2. qm – Multiplayer agent harness for work</h2>
+<h2 class="editorial-h2" id="5-qm-multiplayer-agent-harness-for-work" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">5. qm – Multiplayer agent harness for work</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -33,35 +57,11 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="3-getting-25-gbps-thunderbolt-ethernet-on-my-mac-studio">3. Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio</h2>
+<h2 class="editorial-h2" id="6-google-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">6. Google fixed more Chrome bugs in June than over the past two years, thanks to AI</h2>
 
-**Source:** hackernews — **Virality Score:** 78/100
+**Source:** hackernews — **Virality Score:** 95/100
 
-[Read full analysis →](https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/)
-
----
-
-<h2 class="editorial-h2" id="4-bmw-spider-man-in-car-advertising">4. BMW Spider-Man in-car advertising</h2>
-
-**Source:** hackernews — **Virality Score:** 73/100
-
-[Read full analysis →](https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising)
-
----
-
-<h2 class="editorial-h2" id="5-progressive-web-components">5. Progressive Web Components</h2>
-
-**Source:** hackernews — **Virality Score:** 70/100
-
-[Read full analysis →](https://arielsalminen.com/2026/progressive-web-components/)
-
----
-
-<h2 class="editorial-h2" id="6-june-in-servo-real-world-compat-media-queries-sharedworker-and-more">6. June in Servo: real world compat, media queries, SharedWorker, and more</h2>
-
-**Source:** hackernews — **Virality Score:** 70/100
-
-[Read full analysis →](https://servo.org/blog/2026/07/31/june-in-servo/)
+[Read full analysis →](https://blog.google/security/chrome-stronger-with-every-update/)
 
 ---
 
@@ -71,7 +71,7 @@ imageAlt: "Folded newspapers stacked on a desk in soft morning light"
 
 ---
 
-<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership">Sponsor Spotlight (Paid Partnership)</h2>
+<h2 class="editorial-h2" id="sponsor-spotlight-paid-partnership" style="display:block;margin:1.6rem 0 0.9rem 0;padding:0.55rem 0.6rem 0.35rem 18px;border-left:8px solid rgba(147,197,253,.95);background:rgba(147,197,253,.22);border-radius:12px;color:#ffffff;font-weight:700;font-size:1.38rem;line-height:1.25;letter-spacing:-0.015em;">Sponsor Spotlight (Paid Partnership)</h2>
 
 Brands aligned with the week’s topics can request a contextual sponsor section.
 
