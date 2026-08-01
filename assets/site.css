@@ -397,6 +397,11 @@ a {
   padding-block: var(--space-12);
 }
 
+/* Hide duplicate title when post markdown includes a leading h1 */
+.article-body .editorial-content > h1:first-child {
+  display: none;
+}
+
 .article-footer-tip {
   margin-top: var(--space-8);
   text-align: center;
