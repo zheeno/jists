@@ -25,11 +25,11 @@ imageAlt: "Earth from orbit with city lights glowing at night"
 
 ---
 
-<h2 class="editorial-h2" id="2-bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times">2. Bond sell-off sent warning on Federal Reserve’s credibility, says top central bank official - Financial Times</h2>
+<h2 class="editorial-h2" id="2-china-s-central-bank-pledges-timely-policy-tool-adjustment-reuters">2. China's central bank pledges timely policy tool adjustment - Reuters</h2>
 
 **Source:** google_news_finance — **Virality Score:** 75/100
 
-[Read full analysis →](https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5)
+[Read full analysis →](https://news.google.com/rss/articles/CBMisgFBVV95cUxNQlBEalBMTVVxZF9lek1XdEQ3M0VjeTNvZ1BVLUE5VHRNVUV3OWx3UnhKOEotWTFvZDN0VHBvMzBUcWZrRURzcFhaQVZwZjNhVll0b1prd1JxMEtJdVJRNFZRaWVtOFNkR0s2Mkl0TExac3pQWnp0LXlQY2I4UktydFFVeE9ESGVwa1pFTjMxUVo0MkRRVW5wa2lXV1pwUjY4U2Z5ajdmOHBORl9mQmt4Vi1B?oc=5)
 
 ---
 
@@ -41,7 +41,15 @@ imageAlt: "Earth from orbit with city lights glowing at night"
 
 ---
 
-<h2 class="editorial-h2" id="4-di-taxis">4. Diátaxis</h2>
+<h2 class="editorial-h2" id="4-seedance-2-5">4. Seedance 2.5</h2>
+
+**Source:** hackernews — **Virality Score:** 95/100
+
+[Read full analysis →](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)
+
+---
+
+<h2 class="editorial-h2" id="5-di-taxis">5. Diátaxis</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -49,19 +57,11 @@ imageAlt: "Earth from orbit with city lights glowing at night"
 
 ---
 
-<h2 class="editorial-h2" id="5-seedance-2-5">5. Seedance 2.5</h2>
+<h2 class="editorial-h2" id="6-go-1-27-interactive-tour">6. Go 1.27 Interactive Tour</h2>
 
 **Source:** hackernews — **Virality Score:** 91/100
 
-[Read full analysis →](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)
-
----
-
-<h2 class="editorial-h2" id="6-ai-financial-advice-is-surprisingly-good-especially-if-you-ask-right-questions">6. AI financial advice is surprisingly good, especially if you ask right questions</h2>
-
-**Source:** hackernews — **Virality Score:** 90/100
-
-[Read full analysis →](https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions)
+[Read full analysis →](https://victoriametrics.com/blog/go-1-27/index.html)
 
 ---
 
