@@ -25,43 +25,43 @@ imageAlt: "Earth from orbit with city lights glowing at night"
 
 ---
 
-<h2 class="editorial-h2" id="2-china-s-central-bank-pledges-timely-policy-tool-adjustment-reuters">2. China's central bank pledges timely policy tool adjustment - Reuters</h2>
+<h2 class="editorial-h2" id="2-bond-sell-off-sent-warning-on-federal-reserve-s-credibility-says-top-central-bank-official-financial-times">2. Bond sell-off sent warning on Federal Reserve’s credibility, says top central bank official - Financial Times</h2>
 
 **Source:** google_news_finance — **Virality Score:** 75/100
 
-[Read full analysis →](https://news.google.com/rss/articles/CBMisgFBVV95cUxNQlBEalBMTVVxZF9lek1XdEQ3M0VjeTNvZ1BVLUE5VHRNVUV3OWx3UnhKOEotWTFvZDN0VHBvMzBUcWZrRURzcFhaQVZwZjNhVll0b1prd1JxMEtJdVJRNFZRaWVtOFNkR0s2Mkl0TExac3pQWnp0LXlQY2I4UktydFFVeE9ESGVwa1pFTjMxUVo0MkRRVW5wa2lXV1pwUjY4U2Z5ajdmOHBORl9mQmt4Vi1B?oc=5)
+[Read full analysis →](https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlJuWU9UQlBuWUdqeXowNUhVdnpTTVMtb0hqRVB0X2dDNUNLbDBfd1k4eVB3T0VfR25sUjNDcjhZcVZwZXpOVnJCNkRieGE0MFBVMjBKc0xSZ251WDhnU2ZCczFBZlpXU09LQWZKenpPbFFCSGRuVUJldjZhWUZkUDhGZFk?oc=5)
 
 ---
 
-<h2 class="editorial-h2" id="3-vicki-wickham-behind-the-scenes-force-in-pop-music-dies-at-87-the-new-york-times">3. Vicki Wickham, Behind-the-Scenes Force in Pop Music, Dies at 87 - The New York Times</h2>
+<h2 class="editorial-h2" id="3-has-pop-music-forgotten-to-how-to-have-fun-by-jon-malysiak-aug-2026-medium">3. Has Pop Music Forgotten to How to Have Fun? | by Jon Malysiak | Aug, 2026 - Medium</h2>
 
 **Source:** google_news_popculture — **Virality Score:** 75/100
 
-[Read full analysis →](https://news.google.com/rss/articles/CBMieEFVX3lxTE9mTFJDUVA0Y1pjVDJMbTN3elJGcURveG5UU1J6c1o2ZjRwdldYLWpnRHZuRmN0UDhGWXlEaWFhT0U3Z21UQ2ZNa2hoY05TZWVNZV9wcktMYm8ycm15VFVzR2ZBVU5FaTNZS2h1bTgxbnJVTlRCOTljQQ?oc=5)
+[Read full analysis →](https://news.google.com/rss/articles/CBMikgFBVV95cUxOUXVVVGs2RkZoSUVzeXE1bTFNZmpCd2dnN1JVQVV1eGFPOEFBNTFrc2dtNE9KWHFYQUNSSGxLejVfU0hkaFZTNDRtOWFQMzVQcjdiSjhwUGVzTWxfZFNSYmsxQzZhOEF1UUlObkJsVzRGbXlOTjh6aDJ4U0E0UmlmTmRLSS00RDhIdjZyRXd5VlFTdw?oc=5)
 
 ---
 
-<h2 class="editorial-h2" id="4-seedance-2-5">4. Seedance 2.5</h2>
+<h2 class="editorial-h2" id="4-engineering-international-relations-ssc-spaceforce-mil">4. Engineering International Relations - ssc.spaceforce.mil</h2>
 
-**Source:** hackernews — **Virality Score:** 95/100
+**Source:** google_news_geopolitics — **Virality Score:** 74/100
 
-[Read full analysis →](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)
-
----
-
-<h2 class="editorial-h2" id="5-di-taxis">5. Diátaxis</h2>
-
-**Source:** hackernews — **Virality Score:** 95/100
-
-[Read full analysis →](https://diataxis.fr/)
+[Read full analysis →](https://news.google.com/rss/articles/CBMipAFBVV95cUxPVGJSaTVScW1SMTNpSE9tNTZXSXplZDFfbjhuY2ZtZFpkQ0tKSENadDRjaHQzRVRualBINDZnSTlWOHFWX2RpN1JmMk9HOTlhZ1d4aHY4VktUc3I3T3hrRXY1R2lrZmw1NGNnSk56N29mREl4Sl83RFNSalo5RHZHREZoUENobkwxUlRhLTZTQWpVZ2xZcGxUckZBcExFejNXTnE3RQ?oc=5)
 
 ---
 
-<h2 class="editorial-h2" id="6-go-1-27-interactive-tour">6. Go 1.27 Interactive Tour</h2>
+<h2 class="editorial-h2" id="5-fed-holds-rates-steady-but-three-officials-vote-for-increase-wsj">5. Fed Holds Rates Steady but Three Officials Vote for Increase - WSJ</h2>
 
-**Source:** hackernews — **Virality Score:** 91/100
+**Source:** google_news_finance — **Virality Score:** 74/100
 
-[Read full analysis →](https://victoriametrics.com/blog/go-1-27/index.html)
+[Read full analysis →](https://news.google.com/rss/articles/CBMitAFBVV95cUxPbWprLW5qMWxhbDFjaU9XY183blpJX09mY0hSOXg3dTVxZ250OFp3cFNPekxFdFkxX09jTzNNNWlFNGtjQnduS2JYX3FPdTZSUVZiMDJZYlRyeXlIX19XaGprcFp5dnhjSWxiOUNZeG16WkJqZXF2dGRIbTI3YzFGR3ZOVXkwbzBpVTFSclNWRmx3OTRPdmg1RTNvQXYzb3p2aGcyMjB2NW9Hc24tYkdsMVgyb3Q?oc=5)
+
+---
+
+<h2 class="editorial-h2" id="6-barbie-sequel-stalls-as-studio-nixes-ryan-gosling-and-margot-robbie-pay-raises-complex">6. 'Barbie' Sequel Stalls as Studio Nixes Ryan Gosling and Margot Robbie Pay Raises - Complex</h2>
+
+**Source:** google_news_popculture — **Virality Score:** 74/100
+
+[Read full analysis →](https://news.google.com/rss/articles/CBMirgFBVV95cUxQRnhhblNVWkt5c1dFbTItMC0wUlluY1d0MUExZFF1Xy04aXEzNkt1Tm8xUnhrSHJfWEl5MU94WnJkVF9CZ3dtVkxibWJmWU9TUDBmX0Ezamp0TlF1T2dDMUFPcDRNRU5idkpSeWdqMHJTQ1J2ZktUcU56UnJhcUhWNVliZFI0TkpXbUtfNFNIN2gyNUZGeHFacVlOc093dmdCS2VNbTRpMkZocmxJdUE?oc=5)
 
 ---
 
