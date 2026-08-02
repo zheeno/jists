@@ -7,8 +7,8 @@ category: Tech
 author: Efezino Ukpowe
 readTime: 2 min read
 feedUrl: 2026/08/02/civil-war-in-sudan-global-conflict-tracker-council-on-foreign-relations.html
-imageUrl: https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80
-imageAlt: "Team of creators working across a long wooden table"
+imageUrl: https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80
+imageAlt: "Laptop with code on a sunlit desk"
 ---
 
 In practice, **Civil War in Sudan | Global Conflict Tracker - Council on Foreign Relations** matters because it changes what you can ship—faster, with fewer failure modes, or with better economics.
