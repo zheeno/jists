@@ -41,7 +41,15 @@ imageAlt: "Earth from orbit with city lights glowing at night"
 
 ---
 
-<h2 class="editorial-h2" id="4-karpathy-s-pelican">4. Karpathy’s Pelican</h2>
+<h2 class="editorial-h2" id="4-qwen3-8-max-a-new-bar-for-coding-and-cowork">4. Qwen3.8-Max: A New Bar for Coding and Cowork</h2>
+
+**Source:** hackernews — **Virality Score:** 95/100
+
+[Read full analysis →](https://qwen.ai/blog?id=qwen3.8)
+
+---
+
+<h2 class="editorial-h2" id="5-karpathy-s-pelican">5. Karpathy’s Pelican</h2>
 
 **Source:** hackernews — **Virality Score:** 95/100
 
@@ -49,17 +57,9 @@ imageAlt: "Earth from orbit with city lights glowing at night"
 
 ---
 
-<h2 class="editorial-h2" id="5-qwen3-8-max-a-new-bar-for-coding-and-cowork">5. Qwen3.8-Max: A New Bar for Coding and Cowork</h2>
-
-**Source:** hackernews — **Virality Score:** 90/100
-
-[Read full analysis →](https://qwen.ai/blog?id=qwen3.8)
-
----
-
 <h2 class="editorial-h2" id="6-show-hn-kakehashi-experimental-userspace-to-run-macos-binaries-on-linux-arm">6. Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM</h2>
 
-**Source:** hackernews — **Virality Score:** 84/100
+**Source:** hackernews — **Virality Score:** 86/100
 
 [Read full analysis →](https://github.com/wie-project/kakehashi)
 
